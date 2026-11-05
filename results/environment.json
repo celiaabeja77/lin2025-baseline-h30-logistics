@@ -1,0 +1,7 @@
+{
+  "python": "3.10.11 (Windows 11), virtualenv with python-sat==1.9.dev17",
+  "repairer_commit": "080e33b22d3adc2bbc60b50d888d2b74bd9d8494",
+  "repeats": 5,
+  "timeout_seconds": 300,
+  "seed_note": "PYTHONHASHSEED=repeat; author code still varies between runs because fd Condition hashes include the class object (memory address)"
+}

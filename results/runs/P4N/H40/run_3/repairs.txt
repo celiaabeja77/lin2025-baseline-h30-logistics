@@ -1,0 +1,3 @@
+unload-truck,in,precPos,-1
+load-truck,at,effNeg,1
+load-truck,at,effPos,-1

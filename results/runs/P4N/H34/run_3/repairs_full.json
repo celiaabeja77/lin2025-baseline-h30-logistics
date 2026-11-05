@@ -1,0 +1,13 @@
+[
+  {
+    "action": "fly-airplane",
+    "component": "eff",
+    "negative": false,
+    "predicate": "airport",
+    "arguments": [
+      "?loc-to"
+    ],
+    "operation": 1,
+    "author_line": "fly-airplane,airport,effPos,1"
+  }
+]

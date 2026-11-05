@@ -1,0 +1,32 @@
+{
+  "case": "H35",
+  "setting": "P4",
+  "repeat": 3,
+  "status": "ok",
+  "wall_seconds": 0.433,
+  "repairs": 1,
+  "gold_edits": 1,
+  "tp": 0,
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "exact_recovery": false,
+  "touches_gold_action": true,
+  "only_gold_action": true,
+  "predicted": [
+    "load-truck,obj,effPos,1"
+  ],
+  "solver_calls": 2,
+  "hard_conflicts": 2,
+  "candidate_variables": 3,
+  "algorithm_seconds": 0.032620500001939945,
+  "cardinality_encoding_override": null,
+  "dev_passed": 4,
+  "dev_total": 4,
+  "dev_all_passed": true,
+  "heldout_pos_passed": 10,
+  "heldout_pos_total": 10,
+  "heldout_neg_passed": 0,
+  "heldout_neg_total": 0,
+  "heldout_all_passed": true
+}

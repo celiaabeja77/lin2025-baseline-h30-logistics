@@ -1,0 +1,2 @@
+drive-truck,at,precPos,-1
+drive-truck,at,precPos,1

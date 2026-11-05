@@ -1,0 +1,5 @@
+(load-airplane p1 a4 l00)
+(load-airplane p0 a4 l00)
+(fly-airplane a4 l00 l10)
+(unload-airplane p1 a4 l10)
+(unload-airplane p0 a4 l10)

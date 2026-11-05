@@ -1,0 +1,2 @@
+load-truck,at,effNeg,1
+load-truck,at,effNeg,-1

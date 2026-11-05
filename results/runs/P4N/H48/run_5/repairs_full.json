@@ -1,0 +1,13 @@
+[
+  {
+    "action": "unload-truck",
+    "component": "eff",
+    "negative": true,
+    "predicate": "obj",
+    "arguments": [
+      "?obj"
+    ],
+    "operation": -1,
+    "author_line": "unload-truck,obj,effNeg,-1"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "case": "H42",
+  "setting": "P40",
+  "repeat": 1,
+  "status": "ok",
+  "wall_seconds": 0.477,
+  "repairs": 1,
+  "gold_edits": 2,
+  "tp": 1,
+  "precision": 1.0,
+  "recall": 0.5,
+  "f1": 0.6666666666666666,
+  "exact_recovery": false,
+  "touches_gold_action": true,
+  "only_gold_action": true,
+  "predicted": [
+    "unload-truck,airport,precPos,-1"
+  ],
+  "solver_calls": 2,
+  "hard_conflicts": 23,
+  "candidate_variables": 4,
+  "algorithm_seconds": 0.09096010000212118,
+  "cardinality_encoding_override": null,
+  "dev_passed": 40,
+  "dev_total": 40,
+  "dev_all_passed": true,
+  "heldout_pos_passed": 10,
+  "heldout_pos_total": 10,
+  "heldout_neg_passed": 0,
+  "heldout_neg_total": 0,
+  "heldout_all_passed": true
+}

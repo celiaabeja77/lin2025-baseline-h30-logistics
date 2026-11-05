@@ -1,0 +1,1 @@
+drive-truck,airport,effPos,1

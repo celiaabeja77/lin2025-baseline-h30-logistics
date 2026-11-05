@@ -1,0 +1,1 @@
+drive-truck,truck,effNeg,-1

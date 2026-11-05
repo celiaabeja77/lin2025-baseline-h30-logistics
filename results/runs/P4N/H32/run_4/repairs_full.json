@@ -1,0 +1,14 @@
+[
+  {
+    "action": "drive-truck",
+    "component": "eff",
+    "negative": false,
+    "predicate": "in-city",
+    "arguments": [
+      "?loc-from",
+      "?city"
+    ],
+    "operation": 1,
+    "author_line": "drive-truck,in-city,effPos,1"
+  }
+]

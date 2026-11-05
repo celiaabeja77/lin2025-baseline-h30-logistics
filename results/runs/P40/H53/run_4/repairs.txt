@@ -1,0 +1,1 @@
+load-truck,airport,effPos,1

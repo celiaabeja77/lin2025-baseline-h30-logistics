@@ -1,0 +1,26 @@
+[
+  {
+    "action": "drive-truck",
+    "component": "pre",
+    "negative": false,
+    "predicate": "at",
+    "arguments": [
+      "?truck",
+      "?loc-from"
+    ],
+    "operation": 1,
+    "author_line": "drive-truck,at,precPos,1"
+  },
+  {
+    "action": "drive-truck",
+    "component": "pre",
+    "negative": false,
+    "predicate": "at",
+    "arguments": [
+      "?truck",
+      "?loc-to"
+    ],
+    "operation": -1,
+    "author_line": "drive-truck,at,precPos,-1"
+  }
+]

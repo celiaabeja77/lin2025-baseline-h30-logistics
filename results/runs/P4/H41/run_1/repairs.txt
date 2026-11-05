@@ -1,0 +1,1 @@
+load-truck,airport,precPos,-1

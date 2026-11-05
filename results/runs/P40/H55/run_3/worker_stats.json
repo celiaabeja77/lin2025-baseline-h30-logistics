@@ -1,0 +1,7 @@
+{
+  "solver_calls": 2,
+  "hard_conflicts": 24,
+  "candidate_variables": 9,
+  "algorithm_seconds": 0.09139270000741817,
+  "cardinality_encoding_override": null
+}

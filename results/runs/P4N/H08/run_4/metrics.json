@@ -1,0 +1,33 @@
+{
+  "case": "H08",
+  "setting": "P4N",
+  "repeat": 4,
+  "status": "ok",
+  "wall_seconds": 1.357,
+  "repairs": 2,
+  "gold_edits": 2,
+  "tp": 2,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "exact_recovery": true,
+  "touches_gold_action": true,
+  "only_gold_action": true,
+  "predicted": [
+    "drive-truck,at,precPos,-1",
+    "drive-truck,at,precPos,1"
+  ],
+  "solver_calls": 40,
+  "hard_conflicts": 122,
+  "candidate_variables": 151,
+  "algorithm_seconds": 0.941751899998053,
+  "cardinality_encoding_override": null,
+  "dev_passed": 8,
+  "dev_total": 8,
+  "dev_all_passed": true,
+  "heldout_pos_passed": 10,
+  "heldout_pos_total": 10,
+  "heldout_neg_passed": 14,
+  "heldout_neg_total": 14,
+  "heldout_all_passed": true
+}

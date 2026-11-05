@@ -1,0 +1,1 @@
+fly-airplane,airport,effNeg,-1

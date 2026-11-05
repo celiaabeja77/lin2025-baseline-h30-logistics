@@ -1,0 +1,516 @@
+{
+  "dev": {
+    "positive_total": 4,
+    "positive_passed": 4,
+    "negative_total": 4,
+    "negative_passed": 4,
+    "total": 8,
+    "passed": 8,
+    "rate": 1.0
+  },
+  "dev_records": [
+    {
+      "task": "train_problem0",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "train_problem1",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "train_problem2",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "train_problem2",
+      "plan": "inval-plan.1",
+      "label": "negative",
+      "expected_failure_index": 5,
+      "constraint_passed": true,
+      "sequence_completed": false,
+      "full_goal_reached": false,
+      "first_failure_index": 5,
+      "failed_action": [
+        "drive-truck",
+        "t1",
+        "l10",
+        "l10",
+        "c1"
+      ],
+      "unmet_preconditions_lifted": [
+        "(at ?truck ?loc-from)"
+      ]
+    },
+    {
+      "task": "train_problem2",
+      "plan": "inval-plan.2",
+      "label": "negative",
+      "expected_failure_index": 5,
+      "constraint_passed": true,
+      "sequence_completed": false,
+      "full_goal_reached": false,
+      "first_failure_index": 5,
+      "failed_action": [
+        "unload-truck",
+        "p0",
+        "t1",
+        "l10"
+      ],
+      "unmet_preconditions_lifted": [
+        "(at ?truck ?loc)"
+      ]
+    },
+    {
+      "task": "train_problem5",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "train_problem5",
+      "plan": "inval-plan.1",
+      "label": "negative",
+      "expected_failure_index": 1,
+      "constraint_passed": true,
+      "sequence_completed": false,
+      "full_goal_reached": false,
+      "first_failure_index": 1,
+      "failed_action": [
+        "drive-truck",
+        "t1",
+        "l10",
+        "l10",
+        "c1"
+      ],
+      "unmet_preconditions_lifted": [
+        "(at ?truck ?loc-from)"
+      ]
+    },
+    {
+      "task": "train_problem5",
+      "plan": "inval-plan.2",
+      "label": "negative",
+      "expected_failure_index": 1,
+      "constraint_passed": true,
+      "sequence_completed": false,
+      "full_goal_reached": false,
+      "first_failure_index": 1,
+      "failed_action": [
+        "load-truck",
+        "p0",
+        "t1",
+        "l10"
+      ],
+      "unmet_preconditions_lifted": [
+        "(at ?truck ?loc)"
+      ]
+    }
+  ],
+  "heldout": {
+    "positive_total": 10,
+    "positive_passed": 10,
+    "negative_total": 14,
+    "negative_passed": 14,
+    "total": 24,
+    "passed": 24,
+    "rate": 1.0
+  },
+  "heldout_records": [
+    {
+      "task": "test_problem40",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem40",
+      "plan": "inval-plan.1",
+      "label": "negative",
+      "expected_failure_index": 2,
+      "constraint_passed": true,
+      "sequence_completed": false,
+      "full_goal_reached": false,
+      "first_failure_index": 2,
+      "failed_action": [
+        "drive-truck",
+        "t8",
+        "l82",
+        "l80",
+        "c8"
+      ],
+      "unmet_preconditions_lifted": [
+        "(at ?truck ?loc-from)"
+      ]
+    },
+    {
+      "task": "test_problem40",
+      "plan": "inval-plan.2",
+      "label": "negative",
+      "expected_failure_index": 2,
+      "constraint_passed": true,
+      "sequence_completed": false,
+      "full_goal_reached": false,
+      "first_failure_index": 2,
+      "failed_action": [
+        "unload-truck",
+        "p1",
+        "t8",
+        "l82"
+      ],
+      "unmet_preconditions_lifted": [
+        "(at ?truck ?loc)"
+      ]
+    },
+    {
+      "task": "test_problem41",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem41",
+      "plan": "inval-plan.1",
+      "label": "negative",
+      "expected_failure_index": 1,
+      "constraint_passed": true,
+      "sequence_completed": false,
+      "full_goal_reached": false,
+      "first_failure_index": 1,
+      "failed_action": [
+        "drive-truck",
+        "t9",
+        "l91",
+        "l90",
+        "c9"
+      ],
+      "unmet_preconditions_lifted": [
+        "(at ?truck ?loc-from)"
+      ]
+    },
+    {
+      "task": "test_problem41",
+      "plan": "inval-plan.2",
+      "label": "negative",
+      "expected_failure_index": 1,
+      "constraint_passed": true,
+      "sequence_completed": false,
+      "full_goal_reached": false,
+      "first_failure_index": 1,
+      "failed_action": [
+        "drive-truck",
+        "t9",
+        "l91",
+        "l91",
+        "c9"
+      ],
+      "unmet_preconditions_lifted": [
+        "(at ?truck ?loc-from)"
+      ]
+    },
+    {
+      "task": "test_problem42",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem42",
+      "plan": "inval-plan.1",
+      "label": "negative",
+      "expected_failure_index": 2,
+      "constraint_passed": true,
+      "sequence_completed": false,
+      "full_goal_reached": false,
+      "first_failure_index": 2,
+      "failed_action": [
+        "drive-truck",
+        "t9",
+        "l91",
+        "l90",
+        "c9"
+      ],
+      "unmet_preconditions_lifted": [
+        "(at ?truck ?loc-from)"
+      ]
+    },
+    {
+      "task": "test_problem42",
+      "plan": "inval-plan.2",
+      "label": "negative",
+      "expected_failure_index": 2,
+      "constraint_passed": true,
+      "sequence_completed": false,
+      "full_goal_reached": false,
+      "first_failure_index": 2,
+      "failed_action": [
+        "load-truck",
+        "p17",
+        "t9",
+        "l91"
+      ],
+      "unmet_preconditions_lifted": [
+        "(at ?truck ?loc)"
+      ]
+    },
+    {
+      "task": "test_problem43",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem43",
+      "plan": "inval-plan.1",
+      "label": "negative",
+      "expected_failure_index": 1,
+      "constraint_passed": true,
+      "sequence_completed": false,
+      "full_goal_reached": false,
+      "first_failure_index": 1,
+      "failed_action": [
+        "drive-truck",
+        "t9",
+        "l91",
+        "l90",
+        "c9"
+      ],
+      "unmet_preconditions_lifted": [
+        "(at ?truck ?loc-from)"
+      ]
+    },
+    {
+      "task": "test_problem43",
+      "plan": "inval-plan.2",
+      "label": "negative",
+      "expected_failure_index": 3,
+      "constraint_passed": true,
+      "sequence_completed": false,
+      "full_goal_reached": false,
+      "first_failure_index": 3,
+      "failed_action": [
+        "unload-truck",
+        "p7",
+        "t8",
+        "l81"
+      ],
+      "unmet_preconditions_lifted": [
+        "(at ?truck ?loc)"
+      ]
+    },
+    {
+      "task": "test_problem44",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem45",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem45",
+      "plan": "inval-plan.1",
+      "label": "negative",
+      "expected_failure_index": 2,
+      "constraint_passed": true,
+      "sequence_completed": false,
+      "full_goal_reached": false,
+      "first_failure_index": 2,
+      "failed_action": [
+        "drive-truck",
+        "t8",
+        "l81",
+        "l80",
+        "c8"
+      ],
+      "unmet_preconditions_lifted": [
+        "(at ?truck ?loc-from)"
+      ]
+    },
+    {
+      "task": "test_problem45",
+      "plan": "inval-plan.2",
+      "label": "negative",
+      "expected_failure_index": 2,
+      "constraint_passed": true,
+      "sequence_completed": false,
+      "full_goal_reached": false,
+      "first_failure_index": 2,
+      "failed_action": [
+        "unload-truck",
+        "p4",
+        "t8",
+        "l81"
+      ],
+      "unmet_preconditions_lifted": [
+        "(at ?truck ?loc)"
+      ]
+    },
+    {
+      "task": "test_problem46",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem46",
+      "plan": "inval-plan.1",
+      "label": "negative",
+      "expected_failure_index": 2,
+      "constraint_passed": true,
+      "sequence_completed": false,
+      "full_goal_reached": false,
+      "first_failure_index": 2,
+      "failed_action": [
+        "drive-truck",
+        "t7",
+        "l70",
+        "l70",
+        "c7"
+      ],
+      "unmet_preconditions_lifted": [
+        "(at ?truck ?loc-from)"
+      ]
+    },
+    {
+      "task": "test_problem46",
+      "plan": "inval-plan.2",
+      "label": "negative",
+      "expected_failure_index": 4,
+      "constraint_passed": true,
+      "sequence_completed": false,
+      "full_goal_reached": false,
+      "first_failure_index": 4,
+      "failed_action": [
+        "unload-truck",
+        "p20",
+        "t5",
+        "l52"
+      ],
+      "unmet_preconditions_lifted": [
+        "(at ?truck ?loc)"
+      ]
+    },
+    {
+      "task": "test_problem47",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem48",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem48",
+      "plan": "inval-plan.1",
+      "label": "negative",
+      "expected_failure_index": 2,
+      "constraint_passed": true,
+      "sequence_completed": false,
+      "full_goal_reached": false,
+      "first_failure_index": 2,
+      "failed_action": [
+        "drive-truck",
+        "t8",
+        "l81",
+        "l80",
+        "c8"
+      ],
+      "unmet_preconditions_lifted": [
+        "(at ?truck ?loc-from)"
+      ]
+    },
+    {
+      "task": "test_problem48",
+      "plan": "inval-plan.2",
+      "label": "negative",
+      "expected_failure_index": 2,
+      "constraint_passed": true,
+      "sequence_completed": false,
+      "full_goal_reached": false,
+      "first_failure_index": 2,
+      "failed_action": [
+        "unload-truck",
+        "p22",
+        "t8",
+        "l81"
+      ],
+      "unmet_preconditions_lifted": [
+        "(at ?truck ?loc)"
+      ]
+    },
+    {
+      "task": "test_problem49",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    }
+  ]
+}

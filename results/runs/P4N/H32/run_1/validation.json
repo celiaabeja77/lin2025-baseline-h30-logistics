@@ -1,0 +1,164 @@
+{
+  "dev": {
+    "positive_total": 4,
+    "positive_passed": 4,
+    "negative_total": 0,
+    "negative_passed": 0,
+    "total": 4,
+    "passed": 4,
+    "rate": 1.0
+  },
+  "dev_records": [
+    {
+      "task": "train_problem0",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "train_problem1",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "train_problem5",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "train_problem7",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    }
+  ],
+  "heldout": {
+    "positive_total": 10,
+    "positive_passed": 10,
+    "negative_total": 0,
+    "negative_passed": 0,
+    "total": 10,
+    "passed": 10,
+    "rate": 1.0
+  },
+  "heldout_records": [
+    {
+      "task": "test_problem40",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem41",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem42",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem43",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem44",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem45",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem46",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem47",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem48",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem49",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    }
+  ]
+}

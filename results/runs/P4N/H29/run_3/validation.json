@@ -1,0 +1,240 @@
+{
+  "dev": {
+    "positive_total": 4,
+    "positive_passed": 4,
+    "negative_total": 2,
+    "negative_passed": 2,
+    "total": 6,
+    "passed": 6,
+    "rate": 1.0
+  },
+  "dev_records": [
+    {
+      "task": "train_problem0",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "train_problem1",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "train_problem2",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "train_problem2",
+      "plan": "inval-plan.1",
+      "label": "negative",
+      "expected_failure_index": 4,
+      "constraint_passed": true,
+      "sequence_completed": false,
+      "full_goal_reached": false,
+      "first_failure_index": 4,
+      "failed_action": [
+        "load-airplane",
+        "p0",
+        "a1",
+        "l10"
+      ],
+      "unmet_preconditions_lifted": [
+        "(at ?obj ?loc)"
+      ]
+    },
+    {
+      "task": "train_problem2",
+      "plan": "inval-plan.2",
+      "label": "negative",
+      "expected_failure_index": 4,
+      "constraint_passed": true,
+      "sequence_completed": false,
+      "full_goal_reached": false,
+      "first_failure_index": 4,
+      "failed_action": [
+        "load-airplane",
+        "p0",
+        "a3",
+        "l10"
+      ],
+      "unmet_preconditions_lifted": [
+        "(at ?obj ?loc)"
+      ]
+    },
+    {
+      "task": "train_problem5",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    }
+  ],
+  "heldout": {
+    "positive_total": 10,
+    "positive_passed": 10,
+    "negative_total": 2,
+    "negative_passed": 2,
+    "total": 12,
+    "passed": 12,
+    "rate": 1.0
+  },
+  "heldout_records": [
+    {
+      "task": "test_problem40",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem41",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem42",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem43",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem44",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem45",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem46",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem46",
+      "plan": "inval-plan.1",
+      "label": "negative",
+      "expected_failure_index": 1,
+      "constraint_passed": true,
+      "sequence_completed": false,
+      "full_goal_reached": false,
+      "first_failure_index": 1,
+      "failed_action": [
+        "load-airplane",
+        "p1",
+        "a10",
+        "l90"
+      ],
+      "unmet_preconditions_lifted": [
+        "(at ?obj ?loc)"
+      ]
+    },
+    {
+      "task": "test_problem46",
+      "plan": "inval-plan.2",
+      "label": "negative",
+      "expected_failure_index": 1,
+      "constraint_passed": true,
+      "sequence_completed": false,
+      "full_goal_reached": false,
+      "first_failure_index": 1,
+      "failed_action": [
+        "load-airplane",
+        "p1",
+        "a13",
+        "l90"
+      ],
+      "unmet_preconditions_lifted": [
+        "(at ?obj ?loc)"
+      ]
+    },
+    {
+      "task": "test_problem47",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem48",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    },
+    {
+      "task": "test_problem49",
+      "plan": "val-plan",
+      "label": "positive",
+      "expected_failure_index": null,
+      "constraint_passed": true,
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "first_failure_index": null
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "action": "load-truck",
+    "component": "eff",
+    "negative": true,
+    "predicate": "truck",
+    "arguments": [
+      "?truck"
+    ],
+    "operation": -1,
+    "author_line": "load-truck,truck,effNeg,-1"
+  }
+]

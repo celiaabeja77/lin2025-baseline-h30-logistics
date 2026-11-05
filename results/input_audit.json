@@ -1,0 +1,976 @@
+{
+  "H08": {
+    "p4_problems": [
+      "train_problem0",
+      "train_problem1",
+      "train_problem2",
+      "train_problem5"
+    ],
+    "negatives_dev": 4,
+    "negative_candidates_dev": {
+      "train_problem0": 0,
+      "train_problem1": 0,
+      "train_problem2": 10,
+      "train_problem5": 4
+    },
+    "negatives_heldout": 14,
+    "negative_candidates_heldout": 443,
+    "gold_edits": [
+      [
+        "-1",
+        "drive-truck",
+        "pre",
+        "False",
+        "at",
+        "('?truck', '?loc-to')"
+      ],
+      [
+        "1",
+        "drive-truck",
+        "pre",
+        "False",
+        "at",
+        "('?truck', '?loc-from')"
+      ]
+    ],
+    "faulty_sha256": "4e5c06890cf11342e1ff63a35a5d621028f26e18f0961379fd1fd3b095b00b65",
+    "labels_checked": 76
+  },
+  "H15": {
+    "p4_problems": [
+      "train_problem0",
+      "train_problem1",
+      "train_problem2",
+      "train_problem5"
+    ],
+    "negatives_dev": 0,
+    "negative_candidates_dev": {
+      "train_problem0": 0,
+      "train_problem1": 0,
+      "train_problem2": 0,
+      "train_problem5": 0
+    },
+    "negatives_heldout": 0,
+    "negative_candidates_heldout": 0,
+    "gold_edits": [
+      [
+        "-1",
+        "load-truck",
+        "pre",
+        "False",
+        "in",
+        "('?obj', '?truck')"
+      ],
+      [
+        "1",
+        "load-truck",
+        "pre",
+        "False",
+        "at",
+        "('?obj', '?loc')"
+      ]
+    ],
+    "faulty_sha256": "2ffaa87ffba710754734e425a0036dd6642cc5fec5827737370615e138de9ec1",
+    "labels_checked": 58
+  },
+  "H21": {
+    "p4_problems": [
+      "train_problem0",
+      "train_problem1",
+      "train_problem2",
+      "train_problem5"
+    ],
+    "negatives_dev": 0,
+    "negative_candidates_dev": {
+      "train_problem0": 0,
+      "train_problem1": 0,
+      "train_problem2": 0,
+      "train_problem5": 0
+    },
+    "negatives_heldout": 0,
+    "negative_candidates_heldout": 0,
+    "gold_edits": [
+      [
+        "1",
+        "load-truck",
+        "eff",
+        "False",
+        "in",
+        "('?obj', '?truck')"
+      ]
+    ],
+    "faulty_sha256": "9bfc214ad59a74cd8b99161c6fc1fd023a3877d6d54853b347510569f916fbdd",
+    "labels_checked": 58
+  },
+  "H23": {
+    "p4_problems": [
+      "train_problem0",
+      "train_problem1",
+      "train_problem2",
+      "train_problem5"
+    ],
+    "negatives_dev": 0,
+    "negative_candidates_dev": {
+      "train_problem0": 0,
+      "train_problem1": 0,
+      "train_problem2": 0,
+      "train_problem5": 0
+    },
+    "negatives_heldout": 0,
+    "negative_candidates_heldout": 0,
+    "gold_edits": [
+      [
+        "1",
+        "drive-truck",
+        "eff",
+        "False",
+        "at",
+        "('?truck', '?loc-to')"
+      ]
+    ],
+    "faulty_sha256": "4ee3a0ee857b6c18f9b10d7f67a50aa6038a63a92942b7e971fdb1c33ca0eddc",
+    "labels_checked": 58
+  },
+  "H25": {
+    "p4_problems": [
+      "train_problem0",
+      "train_problem1",
+      "train_problem2",
+      "train_problem5"
+    ],
+    "negatives_dev": 0,
+    "negative_candidates_dev": {
+      "train_problem0": 0,
+      "train_problem1": 0,
+      "train_problem2": 0,
+      "train_problem5": 0
+    },
+    "negatives_heldout": 0,
+    "negative_candidates_heldout": 0,
+    "gold_edits": [
+      [
+        "1",
+        "unload-truck",
+        "eff",
+        "False",
+        "at",
+        "('?obj', '?loc')"
+      ]
+    ],
+    "faulty_sha256": "6650e76b31e5cfe725d198bde8bc89a467b45b74b95921de7c3c65871fee6f05",
+    "labels_checked": 58
+  },
+  "H26": {
+    "p4_problems": [
+      "train_problem0",
+      "train_problem1",
+      "train_problem2",
+      "train_problem5"
+    ],
+    "negatives_dev": 0,
+    "negative_candidates_dev": {
+      "train_problem0": 0,
+      "train_problem1": 0,
+      "train_problem2": 0,
+      "train_problem5": 0
+    },
+    "negatives_heldout": 0,
+    "negative_candidates_heldout": 0,
+    "gold_edits": [
+      [
+        "-1",
+        "load-truck",
+        "eff",
+        "False",
+        "in",
+        "('?truck', '?obj')"
+      ],
+      [
+        "1",
+        "load-truck",
+        "eff",
+        "False",
+        "in",
+        "('?obj', '?truck')"
+      ]
+    ],
+    "faulty_sha256": "135d8cf4d889153a965527068499c6a3c140404732b35ef2ca9e9d383885d38d",
+    "labels_checked": 58
+  },
+  "H28": {
+    "p4_problems": [
+      "train_problem0",
+      "train_problem1",
+      "train_problem2",
+      "train_problem5"
+    ],
+    "negatives_dev": 0,
+    "negative_candidates_dev": {
+      "train_problem0": 0,
+      "train_problem1": 0,
+      "train_problem2": 0,
+      "train_problem5": 0
+    },
+    "negatives_heldout": 0,
+    "negative_candidates_heldout": 0,
+    "gold_edits": [
+      [
+        "-1",
+        "unload-truck",
+        "pre",
+        "False",
+        "in",
+        "('?truck', '?obj')"
+      ],
+      [
+        "1",
+        "unload-truck",
+        "pre",
+        "False",
+        "in",
+        "('?obj', '?truck')"
+      ]
+    ],
+    "faulty_sha256": "ff103565abec9cc5ca2b302f2bf34bd5d69077e320ff6a3e4b2c7d7c78ab6fc3",
+    "labels_checked": 58
+  },
+  "H29": {
+    "p4_problems": [
+      "train_problem0",
+      "train_problem1",
+      "train_problem2",
+      "train_problem5"
+    ],
+    "negatives_dev": 2,
+    "negative_candidates_dev": {
+      "train_problem0": 0,
+      "train_problem1": 0,
+      "train_problem2": 6,
+      "train_problem5": 0
+    },
+    "negatives_heldout": 2,
+    "negative_candidates_heldout": 12,
+    "gold_edits": [
+      [
+        "-1",
+        "load-truck",
+        "eff",
+        "True",
+        "at",
+        "('?truck', '?loc')"
+      ],
+      [
+        "1",
+        "load-truck",
+        "eff",
+        "True",
+        "at",
+        "('?obj', '?loc')"
+      ]
+    ],
+    "faulty_sha256": "ad8ce432e06a8f8eccbd655c765f4a3d3fb0590b33668d1663f4e2d3f0d028fb",
+    "labels_checked": 62
+  },
+  "H32": {
+    "p4_problems": [
+      "train_problem0",
+      "train_problem1",
+      "train_problem5",
+      "train_problem7"
+    ],
+    "negatives_dev": 0,
+    "negative_candidates_dev": {
+      "train_problem0": 0,
+      "train_problem1": 0,
+      "train_problem5": 0,
+      "train_problem7": 0
+    },
+    "negatives_heldout": 0,
+    "negative_candidates_heldout": 0,
+    "gold_edits": [
+      [
+        "-1",
+        "drive-truck",
+        "eff",
+        "True",
+        "in-city",
+        "('?loc-from', '?city')"
+      ]
+    ],
+    "faulty_sha256": "86fa77f20cc8743a9e02b470ac1509c7aa3c0754255d8ace445cdc956f5a3bad",
+    "labels_checked": 58
+  },
+  "H33": {
+    "p4_problems": [
+      "train_problem0",
+      "train_problem1",
+      "train_problem5",
+      "train_problem7"
+    ],
+    "negatives_dev": 0,
+    "negative_candidates_dev": {
+      "train_problem0": 0,
+      "train_problem1": 0,
+      "train_problem5": 0,
+      "train_problem7": 0
+    },
+    "negatives_heldout": 0,
+    "negative_candidates_heldout": 0,
+    "gold_edits": [
+      [
+        "-1",
+        "drive-truck",
+        "eff",
+        "True",
+        "in-city",
+        "('?loc-to', '?city')"
+      ]
+    ],
+    "faulty_sha256": "6e14307b852da163e438ce61dc4d80c3df203cb6bd8069749488f0af6fcab581",
+    "labels_checked": 58
+  },
+  "H34": {
+    "p4_problems": [
+      "train_problem2",
+      "train_problem3",
+      "train_problem0",
+      "train_problem1"
+    ],
+    "negatives_dev": 0,
+    "negative_candidates_dev": {
+      "train_problem2": 0,
+      "train_problem3": 0,
+      "train_problem0": 0,
+      "train_problem1": 0
+    },
+    "negatives_heldout": 0,
+    "negative_candidates_heldout": 0,
+    "gold_edits": [
+      [
+        "-1",
+        "fly-airplane",
+        "eff",
+        "True",
+        "airport",
+        "('?loc-to',)"
+      ]
+    ],
+    "faulty_sha256": "0fc55941ba4966b947de31f66443ccc88cef259cbb2d789b8c92251078f74b4c",
+    "labels_checked": 58
+  },
+  "H35": {
+    "p4_problems": [
+      "train_problem0",
+      "train_problem1",
+      "train_problem2",
+      "train_problem5"
+    ],
+    "negatives_dev": 0,
+    "negative_candidates_dev": {
+      "train_problem0": 0,
+      "train_problem1": 0,
+      "train_problem2": 0,
+      "train_problem5": 0
+    },
+    "negatives_heldout": 0,
+    "negative_candidates_heldout": 0,
+    "gold_edits": [
+      [
+        "-1",
+        "load-truck",
+        "eff",
+        "True",
+        "obj",
+        "('?obj',)"
+      ]
+    ],
+    "faulty_sha256": "6ce33758b7aa85f104fd6f518ae4dbdfa198e9e324b8e923fd24f9749c7eb961",
+    "labels_checked": 58
+  },
+  "H36": {
+    "p4_problems": [
+      "train_problem0",
+      "train_problem1",
+      "train_problem2",
+      "train_problem5"
+    ],
+    "negatives_dev": 0,
+    "negative_candidates_dev": {
+      "train_problem0": 0,
+      "train_problem1": 0,
+      "train_problem2": 0,
+      "train_problem5": 0
+    },
+    "negatives_heldout": 0,
+    "negative_candidates_heldout": 0,
+    "gold_edits": [
+      [
+        "-1",
+        "drive-truck",
+        "eff",
+        "True",
+        "truck",
+        "('?truck',)"
+      ]
+    ],
+    "faulty_sha256": "cb98efc8fb900034e70bb95dee2f60d80d0815baf3edd80b7bebd533f9a1b45e",
+    "labels_checked": 58
+  },
+  "H38": {
+    "p4_problems": [
+      "train_problem0",
+      "train_problem1",
+      "train_problem2",
+      "train_problem5"
+    ],
+    "negatives_dev": 4,
+    "negative_candidates_dev": {
+      "train_problem0": 0,
+      "train_problem1": 0,
+      "train_problem2": 3,
+      "train_problem5": 5
+    },
+    "negatives_heldout": 14,
+    "negative_candidates_heldout": 62,
+    "gold_edits": [
+      [
+        "-1",
+        "drive-truck",
+        "eff",
+        "False",
+        "at",
+        "('?truck', '?loc-from')"
+      ],
+      [
+        "1",
+        "drive-truck",
+        "eff",
+        "False",
+        "at",
+        "('?truck', '?loc-to')"
+      ]
+    ],
+    "faulty_sha256": "4edfcfe7f910c3e5e356d633fa3ba195d0861bc6c00ec32a47772df182e66567",
+    "labels_checked": 76
+  },
+  "H40": {
+    "p4_problems": [
+      "train_problem0",
+      "train_problem1",
+      "train_problem2",
+      "train_problem5"
+    ],
+    "negatives_dev": 4,
+    "negative_candidates_dev": {
+      "train_problem0": 0,
+      "train_problem1": 0,
+      "train_problem2": 13,
+      "train_problem5": 4
+    },
+    "negatives_heldout": 9,
+    "negative_candidates_heldout": 40,
+    "gold_edits": [
+      [
+        "-1",
+        "load-truck",
+        "eff",
+        "False",
+        "at",
+        "('?obj', '?loc')"
+      ],
+      [
+        "1",
+        "load-truck",
+        "eff",
+        "False",
+        "in",
+        "('?obj', '?truck')"
+      ]
+    ],
+    "faulty_sha256": "40cd9e95566c16cbb434d27e99310a36c77f8a9caddd813831ce47b01bdbb346",
+    "labels_checked": 71
+  },
+  "H41": {
+    "p4_problems": [
+      "train_problem2",
+      "train_problem16",
+      "train_problem5",
+      "train_problem7"
+    ],
+    "negatives_dev": 0,
+    "negative_candidates_dev": {
+      "train_problem2": 0,
+      "train_problem16": 0,
+      "train_problem5": 0,
+      "train_problem7": 0
+    },
+    "negatives_heldout": 0,
+    "negative_candidates_heldout": 0,
+    "gold_edits": [
+      [
+        "-1",
+        "load-truck",
+        "pre",
+        "False",
+        "airport",
+        "('?loc',)"
+      ],
+      [
+        "1",
+        "load-truck",
+        "pre",
+        "False",
+        "location",
+        "('?loc',)"
+      ]
+    ],
+    "faulty_sha256": "9530d5c45e305b111868e75af660ef0af6c04b030d3df9f15c7ec15d85b15e8f",
+    "labels_checked": 58
+  },
+  "H42": {
+    "p4_problems": [
+      "train_problem0",
+      "train_problem1",
+      "train_problem2",
+      "train_problem5"
+    ],
+    "negatives_dev": 0,
+    "negative_candidates_dev": {
+      "train_problem0": 0,
+      "train_problem1": 0,
+      "train_problem2": 0,
+      "train_problem5": 0
+    },
+    "negatives_heldout": 0,
+    "negative_candidates_heldout": 0,
+    "gold_edits": [
+      [
+        "-1",
+        "unload-truck",
+        "pre",
+        "False",
+        "airport",
+        "('?loc',)"
+      ],
+      [
+        "1",
+        "unload-truck",
+        "pre",
+        "False",
+        "location",
+        "('?loc',)"
+      ]
+    ],
+    "faulty_sha256": "1fe5d140cfe66fa7cef274bc70240689436df14afd3cecca8c86179bcf820f01",
+    "labels_checked": 58
+  },
+  "H43": {
+    "p4_problems": [
+      "train_problem2",
+      "train_problem16",
+      "train_problem5",
+      "train_problem7"
+    ],
+    "negatives_dev": 0,
+    "negative_candidates_dev": {
+      "train_problem2": 0,
+      "train_problem16": 0,
+      "train_problem5": 0,
+      "train_problem7": 0
+    },
+    "negatives_heldout": 0,
+    "negative_candidates_heldout": 0,
+    "gold_edits": [
+      [
+        "-1",
+        "drive-truck",
+        "pre",
+        "False",
+        "airport",
+        "('?loc-from',)"
+      ],
+      [
+        "1",
+        "drive-truck",
+        "pre",
+        "False",
+        "location",
+        "('?loc-from',)"
+      ]
+    ],
+    "faulty_sha256": "3fc47723eb64d2ac8afcda400787ae2a60f6afc991517e1a277d744684dabf49",
+    "labels_checked": 58
+  },
+  "H44": {
+    "p4_problems": [
+      "train_problem0",
+      "train_problem1",
+      "train_problem2",
+      "train_problem5"
+    ],
+    "negatives_dev": 0,
+    "negative_candidates_dev": {
+      "train_problem0": 0,
+      "train_problem1": 0,
+      "train_problem2": 0,
+      "train_problem5": 0
+    },
+    "negatives_heldout": 0,
+    "negative_candidates_heldout": 0,
+    "gold_edits": [
+      [
+        "-1",
+        "load-truck",
+        "eff",
+        "False",
+        "at",
+        "('?obj', '?truck')"
+      ],
+      [
+        "1",
+        "load-truck",
+        "eff",
+        "False",
+        "in",
+        "('?obj', '?truck')"
+      ]
+    ],
+    "faulty_sha256": "ed374b5ade3da84802be2da31f39eccdbd83e8274abc80280e58b2afd14bf467",
+    "labels_checked": 58
+  },
+  "H45": {
+    "p4_problems": [
+      "train_problem0",
+      "train_problem1",
+      "train_problem2",
+      "train_problem5"
+    ],
+    "negatives_dev": 0,
+    "negative_candidates_dev": {
+      "train_problem0": 0,
+      "train_problem1": 0,
+      "train_problem2": 0,
+      "train_problem5": 0
+    },
+    "negatives_heldout": 0,
+    "negative_candidates_heldout": 0,
+    "gold_edits": [
+      [
+        "-1",
+        "unload-truck",
+        "eff",
+        "False",
+        "in",
+        "('?obj', '?loc')"
+      ],
+      [
+        "1",
+        "unload-truck",
+        "eff",
+        "False",
+        "at",
+        "('?obj', '?loc')"
+      ]
+    ],
+    "faulty_sha256": "07f8139e777c52efd1983568acac3bcedad2590b027d98a55f3be8376a53873e",
+    "labels_checked": 58
+  },
+  "H46": {
+    "p4_problems": [
+      "train_problem0",
+      "train_problem1",
+      "train_problem2",
+      "train_problem5"
+    ],
+    "negatives_dev": 0,
+    "negative_candidates_dev": {
+      "train_problem0": 0,
+      "train_problem1": 0,
+      "train_problem2": 0,
+      "train_problem5": 0
+    },
+    "negatives_heldout": 0,
+    "negative_candidates_heldout": 0,
+    "gold_edits": [
+      [
+        "-1",
+        "drive-truck",
+        "eff",
+        "False",
+        "in",
+        "('?truck', '?loc-to')"
+      ],
+      [
+        "1",
+        "drive-truck",
+        "eff",
+        "False",
+        "at",
+        "('?truck', '?loc-to')"
+      ]
+    ],
+    "faulty_sha256": "e8885eeef3d496ff23dd51e34d712f5e431a9b487b96eec50d7d4894d90ac94b",
+    "labels_checked": 58
+  },
+  "H47": {
+    "p4_problems": [
+      "train_problem0",
+      "train_problem1",
+      "train_problem2",
+      "train_problem5"
+    ],
+    "negatives_dev": 0,
+    "negative_candidates_dev": {
+      "train_problem0": 0,
+      "train_problem1": 0,
+      "train_problem2": 0,
+      "train_problem5": 0
+    },
+    "negatives_heldout": 0,
+    "negative_candidates_heldout": 0,
+    "gold_edits": [
+      [
+        "-1",
+        "load-truck",
+        "eff",
+        "True",
+        "truck",
+        "('?truck',)"
+      ]
+    ],
+    "faulty_sha256": "816d0a46bf9778fd106d626b87e599181e5952b4a2ecb22201630d4791ee793a",
+    "labels_checked": 58
+  },
+  "H48": {
+    "p4_problems": [
+      "train_problem2",
+      "train_problem9",
+      "train_problem5",
+      "train_problem7"
+    ],
+    "negatives_dev": 0,
+    "negative_candidates_dev": {
+      "train_problem2": 0,
+      "train_problem9": 0,
+      "train_problem5": 0,
+      "train_problem7": 0
+    },
+    "negatives_heldout": 0,
+    "negative_candidates_heldout": 0,
+    "gold_edits": [
+      [
+        "-1",
+        "unload-truck",
+        "eff",
+        "True",
+        "obj",
+        "('?obj',)"
+      ]
+    ],
+    "faulty_sha256": "c3757a90ef9c1831d4828d9a522b9a4e01a16f9a64b11f85c7c782260807b26a",
+    "labels_checked": 58
+  },
+  "H49": {
+    "p4_problems": [
+      "train_problem0",
+      "train_problem2",
+      "train_problem1",
+      "train_problem4"
+    ],
+    "negatives_dev": 0,
+    "negative_candidates_dev": {
+      "train_problem0": 0,
+      "train_problem2": 0,
+      "train_problem1": 0,
+      "train_problem4": 0
+    },
+    "negatives_heldout": 0,
+    "negative_candidates_heldout": 0,
+    "gold_edits": [
+      [
+        "-1",
+        "unload-airplane",
+        "eff",
+        "True",
+        "airplane",
+        "('?airplane',)"
+      ]
+    ],
+    "faulty_sha256": "c34cedef640b40468fd77e28da851bf6c48851b923b82be347f563039adabf5f",
+    "labels_checked": 58
+  },
+  "H50": {
+    "p4_problems": [
+      "train_problem0",
+      "train_problem1",
+      "train_problem2",
+      "train_problem5"
+    ],
+    "negatives_dev": 0,
+    "negative_candidates_dev": {
+      "train_problem0": 0,
+      "train_problem1": 0,
+      "train_problem2": 0,
+      "train_problem5": 0
+    },
+    "negatives_heldout": 0,
+    "negative_candidates_heldout": 0,
+    "gold_edits": [
+      [
+        "-1",
+        "load-truck",
+        "eff",
+        "True",
+        "at",
+        "('?truck', '?loc')"
+      ]
+    ],
+    "faulty_sha256": "129674c9a43c7b77707840bfdcbe3946329ee52a5d20d846c956b79aa1859e77",
+    "labels_checked": 58
+  },
+  "H51": {
+    "p4_problems": [
+      "train_problem2",
+      "train_problem16",
+      "train_problem5",
+      "train_problem7"
+    ],
+    "negatives_dev": 0,
+    "negative_candidates_dev": {
+      "train_problem2": 0,
+      "train_problem16": 0,
+      "train_problem5": 0,
+      "train_problem7": 0
+    },
+    "negatives_heldout": 0,
+    "negative_candidates_heldout": 0,
+    "gold_edits": [
+      [
+        "-1",
+        "unload-truck",
+        "eff",
+        "True",
+        "at",
+        "('?truck', '?loc')"
+      ]
+    ],
+    "faulty_sha256": "5af0758917fe519f7672dd13436d32ad53ce09f75015be395a6d3413869946ca",
+    "labels_checked": 58
+  },
+  "H52": {
+    "p4_problems": [
+      "train_problem0",
+      "train_problem2",
+      "train_problem1",
+      "train_problem4"
+    ],
+    "negatives_dev": 0,
+    "negative_candidates_dev": {
+      "train_problem0": 0,
+      "train_problem2": 0,
+      "train_problem1": 0,
+      "train_problem4": 0
+    },
+    "negatives_heldout": 0,
+    "negative_candidates_heldout": 0,
+    "gold_edits": [
+      [
+        "-1",
+        "unload-airplane",
+        "eff",
+        "True",
+        "at",
+        "('?airplane', '?loc')"
+      ]
+    ],
+    "faulty_sha256": "643fd207f374ea06166374f711d596633640fbfa413968178063f74876d4a641",
+    "labels_checked": 58
+  },
+  "H53": {
+    "p4_problems": [
+      "train_problem2",
+      "train_problem15",
+      "train_problem5",
+      "train_problem7"
+    ],
+    "negatives_dev": 0,
+    "negative_candidates_dev": {
+      "train_problem2": 0,
+      "train_problem15": 0,
+      "train_problem5": 0,
+      "train_problem7": 0
+    },
+    "negatives_heldout": 0,
+    "negative_candidates_heldout": 0,
+    "gold_edits": [
+      [
+        "-1",
+        "load-truck",
+        "eff",
+        "True",
+        "airport",
+        "('?loc',)"
+      ]
+    ],
+    "faulty_sha256": "fc25bdd67ceff2f7e9dd3c2badaefa59c3b9ea72071afcf95375d88d4ffd9488",
+    "labels_checked": 58
+  },
+  "H54": {
+    "p4_problems": [
+      "train_problem2",
+      "train_problem16",
+      "train_problem5",
+      "train_problem7"
+    ],
+    "negatives_dev": 0,
+    "negative_candidates_dev": {
+      "train_problem2": 0,
+      "train_problem16": 0,
+      "train_problem5": 0,
+      "train_problem7": 0
+    },
+    "negatives_heldout": 0,
+    "negative_candidates_heldout": 0,
+    "gold_edits": [
+      [
+        "-1",
+        "unload-truck",
+        "eff",
+        "True",
+        "airport",
+        "('?loc',)"
+      ]
+    ],
+    "faulty_sha256": "ad8137d475657949986d8a415fdc5e588ac1c97596fd56082f094f763fc1641e",
+    "labels_checked": 58
+  },
+  "H55": {
+    "p4_problems": [
+      "train_problem0",
+      "train_problem2",
+      "train_problem1",
+      "train_problem4"
+    ],
+    "negatives_dev": 0,
+    "negative_candidates_dev": {
+      "train_problem0": 0,
+      "train_problem2": 0,
+      "train_problem1": 0,
+      "train_problem4": 0
+    },
+    "negatives_heldout": 0,
+    "negative_candidates_heldout": 0,
+    "gold_edits": [
+      [
+        "-1",
+        "unload-airplane",
+        "eff",
+        "True",
+        "airport",
+        "('?loc',)"
+      ]
+    ],
+    "faulty_sha256": "f0c31b5878d12425cf7ceba69f83bc84708c82917f180cf4675e1939c73f6589",
+    "labels_checked": 58
+  }
+}

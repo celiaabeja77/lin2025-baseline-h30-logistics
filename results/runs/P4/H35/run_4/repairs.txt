@@ -1,0 +1,1 @@
+load-truck,obj,effPos,1

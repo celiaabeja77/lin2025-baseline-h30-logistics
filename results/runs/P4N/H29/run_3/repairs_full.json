@@ -1,0 +1,26 @@
+[
+  {
+    "action": "load-truck",
+    "component": "eff",
+    "negative": false,
+    "predicate": "at",
+    "arguments": [
+      "?truck",
+      "?loc"
+    ],
+    "operation": 1,
+    "author_line": "load-truck,at,effPos,1"
+  },
+  {
+    "action": "load-truck",
+    "component": "eff",
+    "negative": true,
+    "predicate": "at",
+    "arguments": [
+      "?obj",
+      "?loc"
+    ],
+    "operation": 1,
+    "author_line": "load-truck,at,effNeg,1"
+  }
+]

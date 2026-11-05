@@ -1,0 +1,1 @@
+drive-truck,in-city,effPos,1

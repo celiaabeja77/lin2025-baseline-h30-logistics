@@ -1,0 +1,14 @@
+[
+  {
+    "action": "unload-truck",
+    "component": "eff",
+    "negative": false,
+    "predicate": "at",
+    "arguments": [
+      "?truck",
+      "?loc"
+    ],
+    "operation": 1,
+    "author_line": "unload-truck,at,effPos,1"
+  }
+]

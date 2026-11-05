@@ -1,0 +1,13 @@
+[
+  {
+    "action": "unload-airplane",
+    "component": "eff",
+    "negative": true,
+    "predicate": "airplane",
+    "arguments": [
+      "?airplane"
+    ],
+    "operation": -1,
+    "author_line": "unload-airplane,airplane,effNeg,-1"
+  }
+]

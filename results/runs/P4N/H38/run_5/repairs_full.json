@@ -1,0 +1,38 @@
+[
+  {
+    "action": "drive-truck",
+    "component": "eff",
+    "negative": false,
+    "predicate": "at",
+    "arguments": [
+      "?truck",
+      "?loc-from"
+    ],
+    "operation": -1,
+    "author_line": "drive-truck,at,effPos,-1"
+  },
+  {
+    "action": "drive-truck",
+    "component": "eff",
+    "negative": false,
+    "predicate": "at",
+    "arguments": [
+      "?truck",
+      "?loc-to"
+    ],
+    "operation": 1,
+    "author_line": "drive-truck,at,effPos,1"
+  },
+  {
+    "action": "drive-truck",
+    "component": "eff",
+    "negative": true,
+    "predicate": "at",
+    "arguments": [
+      "?truck",
+      "?loc-from"
+    ],
+    "operation": 1,
+    "author_line": "drive-truck,at,effNeg,1"
+  }
+]

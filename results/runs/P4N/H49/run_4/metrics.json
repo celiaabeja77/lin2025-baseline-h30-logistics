@@ -1,0 +1,32 @@
+{
+  "case": "H49",
+  "setting": "P4N",
+  "repeat": 4,
+  "status": "ok",
+  "wall_seconds": 0.442,
+  "repairs": 1,
+  "gold_edits": 1,
+  "tp": 1,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "exact_recovery": true,
+  "touches_gold_action": true,
+  "only_gold_action": true,
+  "predicted": [
+    "unload-airplane,airplane,effNeg,-1"
+  ],
+  "solver_calls": 2,
+  "hard_conflicts": 2,
+  "candidate_variables": 4,
+  "algorithm_seconds": 0.024609000000054948,
+  "cardinality_encoding_override": null,
+  "dev_passed": 4,
+  "dev_total": 4,
+  "dev_all_passed": true,
+  "heldout_pos_passed": 10,
+  "heldout_pos_total": 10,
+  "heldout_neg_passed": 0,
+  "heldout_neg_total": 0,
+  "heldout_all_passed": true
+}

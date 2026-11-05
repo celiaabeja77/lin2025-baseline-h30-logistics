@@ -1,0 +1,13 @@
+[
+  {
+    "action": "unload-truck",
+    "component": "eff",
+    "negative": false,
+    "predicate": "airport",
+    "arguments": [
+      "?loc"
+    ],
+    "operation": 1,
+    "author_line": "unload-truck,airport,effPos,1"
+  }
+]
