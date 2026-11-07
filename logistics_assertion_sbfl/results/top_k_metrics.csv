@@ -1,0 +1,7 @@
+scope,k,num_evaluated_cases,num_rankable_cases,num_missing_assertion_cases,strict_hits,strict_accuracy,tie_aware_hits,tie_aware_accuracy
+all_cases_missing_assertions_count_as_misses,1,30,27,3,0,0.0,27,0.9
+all_cases_missing_assertions_count_as_misses,3,30,27,3,0,0.0,27,0.9
+all_cases_missing_assertions_count_as_misses,5,30,27,3,1,0.03333333333333333,27,0.9
+rankable_existing_assertion_cases,1,27,27,0,0,0.0,27,1.0
+rankable_existing_assertion_cases,3,27,27,0,0,0.0,27,1.0
+rankable_existing_assertion_cases,5,27,27,0,1,0.037037037037037035,27,1.0

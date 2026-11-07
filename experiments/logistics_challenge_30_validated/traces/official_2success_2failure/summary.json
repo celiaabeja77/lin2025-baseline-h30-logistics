@@ -1,0 +1,1686 @@
+{
+  "status": "complete",
+  "official_only": true,
+  "authored_Problems_used": 0,
+  "domains": 30,
+  "source_dataset_domain_count": 55,
+  "excluded_shortfall_domains": 25,
+  "official_Problems_available": 50,
+  "FD_reference_plans_solved_and_validated": 50,
+  "native_reference_full_traces": 10,
+  "native_mutant_traces": 120,
+  "success_traces": 60,
+  "failure_traces": 60,
+  "domains_with_two_success_two_failure": 30,
+  "missing_success_traces": 0,
+  "missing_failure_traces": 0,
+  "failure_kinds": {
+    "action_not_applicable": 58,
+    "goal_not_reached": 2
+  },
+  "all_native_simulator_validator_results_agree": true,
+  "all_reference_traces_complete_and_full_Goal_reached": true,
+  "plan_Problem_Goal_bytes_not_modified": true,
+  "versions": {
+    "unified-planning": "1.3.0",
+    "up-fast-downward": "0.5.2"
+  },
+  "reference_trace_ids": [
+    "train_problem0",
+    "train_problem1",
+    "train_problem15",
+    "train_problem16",
+    "train_problem2",
+    "train_problem3",
+    "train_problem4",
+    "train_problem5",
+    "train_problem7",
+    "train_problem9"
+  ],
+  "new_planner_runs": 0,
+  "new_native_simulator_runs": 0,
+  "traces_reused_byte_identically": true,
+  "SBFL_runs": 0,
+  "LLM_runs": 0,
+  "ontology_runs": 0,
+  "Gym_runtime_runs": 0,
+  "success_definition": "sequence_completed AND full_goal_reached",
+  "plan_pool_limit": "One reference plan per Problem; not exhaustive over alternative plans or a domain-solvability proof",
+  "per_domain": [
+    {
+      "domain": "H08",
+      "observed_success_pool": 20,
+      "observed_failure_pool": 30,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem0",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem1",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem2",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem5",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H15",
+      "observed_success_pool": 20,
+      "observed_failure_pool": 30,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem0",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem1",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem2",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem5",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H21",
+      "observed_success_pool": 20,
+      "observed_failure_pool": 30,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem0",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem1",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem2",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem5",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H23",
+      "observed_success_pool": 20,
+      "observed_failure_pool": 30,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem0",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem1",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem2",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem5",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H25",
+      "observed_success_pool": 20,
+      "observed_failure_pool": 30,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem0",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem1",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem2",
+          "sequence_completed": true,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "goal_not_reached"
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem5",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H26",
+      "observed_success_pool": 20,
+      "observed_failure_pool": 30,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem0",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem1",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem2",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem5",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H28",
+      "observed_success_pool": 20,
+      "observed_failure_pool": 30,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem0",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem1",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem2",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem5",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H29",
+      "observed_success_pool": 20,
+      "observed_failure_pool": 30,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem0",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem1",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem2",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem5",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H32",
+      "observed_success_pool": 25,
+      "observed_failure_pool": 25,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem0",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem1",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem5",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem7",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H33",
+      "observed_success_pool": 24,
+      "observed_failure_pool": 26,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem0",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem1",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem5",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem7",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H34",
+      "observed_success_pool": 15,
+      "observed_failure_pool": 35,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem2",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem3",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem0",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem1",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H35",
+      "observed_success_pool": 20,
+      "observed_failure_pool": 30,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem0",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem1",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem2",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem5",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H36",
+      "observed_success_pool": 20,
+      "observed_failure_pool": 30,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem0",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem1",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem2",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem5",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H38",
+      "observed_success_pool": 20,
+      "observed_failure_pool": 30,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem0",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem1",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem2",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem5",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H40",
+      "observed_success_pool": 20,
+      "observed_failure_pool": 30,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem0",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem1",
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem2",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem5",
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable"
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H41",
+      "observed_success_pool": 25,
+      "observed_failure_pool": 25,
+      "successes_executing_faulty_action_in_pool": 5,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem2",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 1
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem16",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 1
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem5",
+          "screened_faulty_action_executed_count": 0,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 0
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem7",
+          "screened_faulty_action_executed_count": 0,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 0
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H42",
+      "observed_success_pool": 20,
+      "observed_failure_pool": 30,
+      "successes_executing_faulty_action_in_pool": 0,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem0",
+          "screened_faulty_action_executed_count": 0,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 0
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem1",
+          "screened_faulty_action_executed_count": 0,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 0
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem2",
+          "screened_faulty_action_executed_count": 0,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 0
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem5",
+          "screened_faulty_action_executed_count": 2,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 2
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H43",
+      "observed_success_pool": 23,
+      "observed_failure_pool": 27,
+      "successes_executing_faulty_action_in_pool": 3,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem2",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 1
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem16",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 1
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem5",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 1
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem7",
+          "screened_faulty_action_executed_count": 0,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 0
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H44",
+      "observed_success_pool": 20,
+      "observed_failure_pool": 30,
+      "successes_executing_faulty_action_in_pool": 0,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem0",
+          "screened_faulty_action_executed_count": 0,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 0
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem1",
+          "screened_faulty_action_executed_count": 0,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 0
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem2",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 1
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem5",
+          "screened_faulty_action_executed_count": 2,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 2
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H45",
+      "observed_success_pool": 20,
+      "observed_failure_pool": 30,
+      "successes_executing_faulty_action_in_pool": 0,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem0",
+          "screened_faulty_action_executed_count": 0,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 0
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem1",
+          "screened_faulty_action_executed_count": 0,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 0
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem2",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": true,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "goal_not_reached",
+          "evaluation_only_faulty_action_executed_count": 1
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem5",
+          "screened_faulty_action_executed_count": 4,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 4
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H46",
+      "observed_success_pool": 20,
+      "observed_failure_pool": 30,
+      "successes_executing_faulty_action_in_pool": 0,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem0",
+          "screened_faulty_action_executed_count": 0,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 0
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem1",
+          "screened_faulty_action_executed_count": 0,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 0
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem2",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 1
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem5",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 1
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H47",
+      "observed_success_pool": 20,
+      "observed_failure_pool": 30,
+      "successes_executing_faulty_action_in_pool": 0,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem0",
+          "screened_faulty_action_executed_count": 0,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 0
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem1",
+          "screened_faulty_action_executed_count": 0,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 0
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem2",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 1
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem5",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 1
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H48",
+      "observed_success_pool": 26,
+      "observed_failure_pool": 24,
+      "successes_executing_faulty_action_in_pool": 6,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem2",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 1
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem9",
+          "screened_faulty_action_executed_count": 3,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 3
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem5",
+          "screened_faulty_action_executed_count": 4,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 4
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem7",
+          "screened_faulty_action_executed_count": 2,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 2
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H49",
+      "observed_success_pool": 13,
+      "observed_failure_pool": 37,
+      "successes_executing_faulty_action_in_pool": 13,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem0",
+          "screened_faulty_action_executed_count": 2,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 2
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem2",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 1
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem1",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 1
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem4",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 1
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H50",
+      "observed_success_pool": 20,
+      "observed_failure_pool": 30,
+      "successes_executing_faulty_action_in_pool": 0,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem0",
+          "screened_faulty_action_executed_count": 0,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 0
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem1",
+          "screened_faulty_action_executed_count": 0,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 0
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem2",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 1
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem5",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 1
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H51",
+      "observed_success_pool": 27,
+      "observed_failure_pool": 23,
+      "successes_executing_faulty_action_in_pool": 7,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem2",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 1
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem16",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 1
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem5",
+          "screened_faulty_action_executed_count": 2,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 2
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem7",
+          "screened_faulty_action_executed_count": 3,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 3
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H52",
+      "observed_success_pool": 13,
+      "observed_failure_pool": 37,
+      "successes_executing_faulty_action_in_pool": 13,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem0",
+          "screened_faulty_action_executed_count": 2,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 2
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem2",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 1
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem1",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 1
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem4",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 1
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H53",
+      "observed_success_pool": 26,
+      "observed_failure_pool": 24,
+      "successes_executing_faulty_action_in_pool": 6,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem2",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 1
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem15",
+          "screened_faulty_action_executed_count": 4,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 4
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem5",
+          "screened_faulty_action_executed_count": 3,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 3
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem7",
+          "screened_faulty_action_executed_count": 3,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 3
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H54",
+      "observed_success_pool": 25,
+      "observed_failure_pool": 25,
+      "successes_executing_faulty_action_in_pool": 5,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem2",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 1
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem16",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 1
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem5",
+          "screened_faulty_action_executed_count": 2,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 2
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem7",
+          "screened_faulty_action_executed_count": 2,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 2
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    },
+    {
+      "domain": "H55",
+      "observed_success_pool": 16,
+      "observed_failure_pool": 34,
+      "successes_executing_faulty_action_in_pool": 16,
+      "selected_successes": 2,
+      "selected_failures": 2,
+      "missing_successes": 0,
+      "missing_failures": 0,
+      "traces": [
+        {
+          "trace_id": "S1",
+          "expected_success": true,
+          "problem_id": "train_problem0",
+          "screened_faulty_action_executed_count": 2,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 2
+        },
+        {
+          "trace_id": "S2",
+          "expected_success": true,
+          "problem_id": "train_problem2",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": true,
+          "full_goal_reached": true,
+          "validator_status": "VALID",
+          "failure_kind": null,
+          "evaluation_only_faulty_action_executed_count": 1
+        },
+        {
+          "trace_id": "F1",
+          "expected_success": false,
+          "problem_id": "train_problem1",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 1
+        },
+        {
+          "trace_id": "F2",
+          "expected_success": false,
+          "problem_id": "train_problem4",
+          "screened_faulty_action_executed_count": 1,
+          "sequence_completed": false,
+          "full_goal_reached": false,
+          "validator_status": "INVALID",
+          "failure_kind": "action_not_applicable",
+          "evaluation_only_faulty_action_executed_count": 1
+        }
+      ],
+      "actual_trace_count": 4,
+      "monotonic_weakening_of_reference": false,
+      "shortfall_explanation": []
+    }
+  ]
+}

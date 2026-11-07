@@ -6,6 +6,12 @@
 - 作者 repo 沒有授權條款，所以本 repo 不附它的程式碼，改由 `scripts/setup_repairer.py` 下載。
 - 已執行結果全部附在 `results/`，不重跑也能直接看。
 
+## 純 SBFL＋Ochiai 定位實驗
+
+同一批 H30 上的 [SBFL＋Ochiai 程式與重跑說明](logistics_assertion_sbfl/README.md)、[30 案結果報告](logistics_assertion_sbfl/results/report.md) 和 [Trace 分析](logistics_assertion_sbfl/trace_analysis/report.md) 放在 `logistics_assertion_sbfl/`。這組實驗只做 assertion 排名。
+
+可直接使用 [已驗證的 H30 原始資料](experiments/logistics_challenge_30_validated/README.md) 重算排名，包含 30 個錯誤 Domain 和 120 條既有 Trace。原始 PDDLGym 資料的授權見 [MIT License](licenses/PDDLGym-MIT-LICENSE.md)。
+
 ## 快速開始
 
 需要 Python 3.10 和 git。

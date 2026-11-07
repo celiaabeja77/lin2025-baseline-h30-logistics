@@ -1,0 +1,25 @@
+{
+  "case_id": "H23",
+  "group_id": "G5",
+  "group_title": "新狀態漏建立，後段才受阻",
+  "description_zh_tw": "開車漏記卡車抵達位置",
+  "source_candidate_id": "H23",
+  "source_legacy_case": null,
+  "faulty_action": "DRIVE-TRUCK",
+  "component": ":effect",
+  "original_slot_1based": 2,
+  "original_line_1based": 71,
+  "original_assertion": "(at ?truck ?loc-to)",
+  "replacement_assertion": null,
+  "domain_sha256": "4ee3a0ee857b6c18f9b10d7f67a50aa6038a63a92942b7e971fdb1c33ca0eddc",
+  "blind_id": "B-4ee3a0ee857b",
+  "structural_checks": {
+    "single_assertion_edit": true,
+    "unchanged_declarations_parameters_and_other_assertions": true,
+    "undeclared_predicates_or_variables": false,
+    "duplicate_assertions": false,
+    "literal_count": 42,
+    "action_count": 6,
+    "predicate_count": 9
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "case_id": "H15",
+  "group_id": "G3",
+  "group_title": "貨物來源與承載身分混淆",
+  "description_zh_tw": "卡車裝貨把地面來源錯寫成已在車內",
+  "source_candidate_id": null,
+  "source_legacy_case": null,
+  "faulty_action": "LOAD-TRUCK",
+  "component": ":precondition",
+  "original_slot_1based": 5,
+  "original_line_1based": 22,
+  "original_assertion": "(at ?obj ?loc)",
+  "replacement_assertion": "(in ?obj ?truck)",
+  "domain_sha256": "2ffaa87ffba710754734e425a0036dd6642cc5fec5827737370615e138de9ec1",
+  "blind_id": "B-2ffaa87ffba7",
+  "structural_checks": {
+    "single_assertion_edit": true,
+    "unchanged_declarations_parameters_and_other_assertions": true,
+    "undeclared_predicates_or_variables": false,
+    "duplicate_assertions": false,
+    "literal_count": 43,
+    "action_count": 6,
+    "predicate_count": 9
+  }
+}

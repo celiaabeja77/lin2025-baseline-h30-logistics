@@ -1,0 +1,270 @@
+{
+  "date": "2026-10-22",
+  "source_dataset": "logistics_challenge_55",
+  "rule": "Retain domains with selected_successes=2, selected_failures=2 and both shortfalls zero",
+  "retained_domain_ids": [
+    "H08",
+    "H15",
+    "H21",
+    "H23",
+    "H25",
+    "H26",
+    "H28",
+    "H29",
+    "H32",
+    "H33",
+    "H34",
+    "H35",
+    "H36",
+    "H38",
+    "H40",
+    "H41",
+    "H42",
+    "H43",
+    "H44",
+    "H45",
+    "H46",
+    "H47",
+    "H48",
+    "H49",
+    "H50",
+    "H51",
+    "H52",
+    "H53",
+    "H54",
+    "H55"
+  ],
+  "removed_domain_ids": [
+    "H01",
+    "H02",
+    "H03",
+    "H04",
+    "H05",
+    "H06",
+    "H07",
+    "H09",
+    "H10",
+    "H11",
+    "H12",
+    "H13",
+    "H14",
+    "H16",
+    "H17",
+    "H18",
+    "H19",
+    "H20",
+    "H22",
+    "H24",
+    "H27",
+    "H30",
+    "H31",
+    "H37",
+    "H39"
+  ],
+  "retained_count": 30,
+  "removed_count": 25,
+  "original_H_ids_preserved": true,
+  "source_dataset_modified": false,
+  "removed_details": [
+    {
+      "domain": "H01",
+      "missing_successes": 0,
+      "missing_failures": 2,
+      "reason": [
+        "只放寬前置條件或少刪事實；在正向條件與正向 Goal 下，原版合法計畫不會因此變成執行失敗。"
+      ]
+    },
+    {
+      "domain": "H02",
+      "missing_successes": 0,
+      "missing_failures": 2,
+      "reason": [
+        "只放寬前置條件或少刪事實；在正向條件與正向 Goal 下，原版合法計畫不會因此變成執行失敗。"
+      ]
+    },
+    {
+      "domain": "H03",
+      "missing_successes": 0,
+      "missing_failures": 2,
+      "reason": [
+        "只放寬前置條件或少刪事實；在正向條件與正向 Goal 下，原版合法計畫不會因此變成執行失敗。"
+      ]
+    },
+    {
+      "domain": "H04",
+      "missing_successes": 0,
+      "missing_failures": 2,
+      "reason": [
+        "只放寬前置條件或少刪事實；在正向條件與正向 Goal 下，原版合法計畫不會因此變成執行失敗。"
+      ]
+    },
+    {
+      "domain": "H05",
+      "missing_successes": 0,
+      "missing_failures": 2,
+      "reason": [
+        "只放寬前置條件或少刪事實；在正向條件與正向 Goal 下，原版合法計畫不會因此變成執行失敗。"
+      ]
+    },
+    {
+      "domain": "H06",
+      "missing_successes": 0,
+      "missing_failures": 2,
+      "reason": [
+        "只放寬前置條件或少刪事實；在正向條件與正向 Goal 下，原版合法計畫不會因此變成執行失敗。"
+      ]
+    },
+    {
+      "domain": "H07",
+      "missing_successes": 0,
+      "missing_failures": 2,
+      "reason": [
+        "只放寬前置條件或少刪事實；在正向條件與正向 Goal 下，原版合法計畫不會因此變成執行失敗。"
+      ]
+    },
+    {
+      "domain": "H09",
+      "missing_successes": 2,
+      "missing_failures": 0,
+      "reason": [
+        "本批官方參考計畫不足兩條完整成功；未使用自建 Problem，也未把部分執行算成功。"
+      ]
+    },
+    {
+      "domain": "H10",
+      "missing_successes": 0,
+      "missing_failures": 2,
+      "reason": [
+        "只放寬前置條件或少刪事實；在正向條件與正向 Goal 下，原版合法計畫不會因此變成執行失敗。"
+      ]
+    },
+    {
+      "domain": "H11",
+      "missing_successes": 0,
+      "missing_failures": 2,
+      "reason": [
+        "只放寬前置條件或少刪事實；在正向條件與正向 Goal 下，原版合法計畫不會因此變成執行失敗。"
+      ]
+    },
+    {
+      "domain": "H12",
+      "missing_successes": 0,
+      "missing_failures": 2,
+      "reason": [
+        "只放寬前置條件或少刪事實；在正向條件與正向 Goal 下，原版合法計畫不會因此變成執行失敗。"
+      ]
+    },
+    {
+      "domain": "H13",
+      "missing_successes": 0,
+      "missing_failures": 2,
+      "reason": [
+        "只放寬前置條件或少刪事實；在正向條件與正向 Goal 下，原版合法計畫不會因此變成執行失敗。"
+      ]
+    },
+    {
+      "domain": "H14",
+      "missing_successes": 0,
+      "missing_failures": 2,
+      "reason": [
+        "只放寬前置條件或少刪事實；在正向條件與正向 Goal 下，原版合法計畫不會因此變成執行失敗。"
+      ]
+    },
+    {
+      "domain": "H16",
+      "missing_successes": 0,
+      "missing_failures": 2,
+      "reason": [
+        "只放寬前置條件或少刪事實；在正向條件與正向 Goal 下，原版合法計畫不會因此變成執行失敗。"
+      ]
+    },
+    {
+      "domain": "H17",
+      "missing_successes": 0,
+      "missing_failures": 2,
+      "reason": [
+        "只放寬前置條件或少刪事實；在正向條件與正向 Goal 下，原版合法計畫不會因此變成執行失敗。"
+      ]
+    },
+    {
+      "domain": "H18",
+      "missing_successes": 0,
+      "missing_failures": 2,
+      "reason": [
+        "只放寬前置條件或少刪事實；在正向條件與正向 Goal 下，原版合法計畫不會因此變成執行失敗。"
+      ]
+    },
+    {
+      "domain": "H19",
+      "missing_successes": 0,
+      "missing_failures": 2,
+      "reason": [
+        "只放寬前置條件或少刪事實；在正向條件與正向 Goal 下，原版合法計畫不會因此變成執行失敗。"
+      ]
+    },
+    {
+      "domain": "H20",
+      "missing_successes": 0,
+      "missing_failures": 2,
+      "reason": [
+        "只放寬前置條件或少刪事實；在正向條件與正向 Goal 下，原版合法計畫不會因此變成執行失敗。"
+      ]
+    },
+    {
+      "domain": "H22",
+      "missing_successes": 2,
+      "missing_failures": 0,
+      "reason": [
+        "本批官方參考計畫不足兩條完整成功；未使用自建 Problem，也未把部分執行算成功。"
+      ]
+    },
+    {
+      "domain": "H24",
+      "missing_successes": 2,
+      "missing_failures": 0,
+      "reason": [
+        "本批官方參考計畫不足兩條完整成功；未使用自建 Problem，也未把部分執行算成功。"
+      ]
+    },
+    {
+      "domain": "H27",
+      "missing_successes": 2,
+      "missing_failures": 0,
+      "reason": [
+        "本批官方參考計畫不足兩條完整成功；未使用自建 Problem，也未把部分執行算成功。"
+      ]
+    },
+    {
+      "domain": "H30",
+      "missing_successes": 2,
+      "missing_failures": 0,
+      "reason": [
+        "本批官方參考計畫不足兩條完整成功；未使用自建 Problem，也未把部分執行算成功。"
+      ]
+    },
+    {
+      "domain": "H31",
+      "missing_successes": 2,
+      "missing_failures": 0,
+      "reason": [
+        "本批官方參考計畫不足兩條完整成功；未使用自建 Problem，也未把部分執行算成功。"
+      ]
+    },
+    {
+      "domain": "H37",
+      "missing_successes": 2,
+      "missing_failures": 0,
+      "reason": [
+        "本批官方參考計畫不足兩條完整成功；未使用自建 Problem，也未把部分執行算成功。"
+      ]
+    },
+    {
+      "domain": "H39",
+      "missing_successes": 2,
+      "missing_failures": 0,
+      "reason": [
+        "本批官方參考計畫不足兩條完整成功；未使用自建 Problem，也未把部分執行算成功。"
+      ]
+    }
+  ]
+}

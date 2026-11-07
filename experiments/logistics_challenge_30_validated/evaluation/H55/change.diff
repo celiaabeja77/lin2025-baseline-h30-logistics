@@ -1,0 +1,11 @@
+--- reference/domain.pddl
++++ H55/domain.pddl
+@@ -54,7 +54,7 @@
+    (and (OBJ ?obj) (AIRPLANE ?airplane) (LOCATION ?loc)
+         (in ?obj ?airplane) (at ?airplane ?loc))
+   :effect
+-   (and (not (in ?obj ?airplane)) (at ?obj ?loc)))
++   (and (not (in ?obj ?airplane)) (at ?obj ?loc) (not (AIRPORT ?loc))))
+ 
+ (:action DRIVE-TRUCK
+   :parameters

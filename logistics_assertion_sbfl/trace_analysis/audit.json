@@ -1,0 +1,32 @@
+{
+  "status": "pass",
+  "analysis_type": "posthoc_gold_and_reference_trace_analysis_only",
+  "source_project": "C:\\Users\\USER\\Documents\\ChatGPT\\PDDL ontology\\experiments\\logistics_challenge_30_validated",
+  "existing_sbfl_results": "C:\\Users\\USER\\Documents\\ChatGPT\\PDDL ontology\\logistics_assertion_sbfl\\results",
+  "cases": 30,
+  "selected_mutant_traces": 120,
+  "unique_selected_official_problems": 10,
+  "successes": 60,
+  "failures": 60,
+  "failure_kinds": {
+    "action_not_applicable": 58,
+    "goal_not_reached": 2
+  },
+  "total_executed_steps": 930,
+  "coverage_group_count_distribution": {
+    "1": 1,
+    "2": 10,
+    "3": 10,
+    "4": 9
+  },
+  "raw_input_file_count": 742,
+  "original_sbfl_result_file_count": 278,
+  "raw_inputs_byte_identical_before_and_after": true,
+  "sbfl_results_byte_identical_before_and_after": true,
+  "example_dependency_matches_grounded_and_persistent": true,
+  "H21_H26_common_candidate_coverage_identical": true,
+  "new_planner_runs": 0,
+  "new_simulator_runs": 0,
+  "scores_recomputed_or_changed": false,
+  "source_run_manifest_sha256": "35430ed533bc5826ee6dc2d3d7ff8d2ae0acf912c80b44d3390d50a18aadfa80"
+}

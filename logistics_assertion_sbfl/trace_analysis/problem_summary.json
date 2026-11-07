@@ -1,0 +1,750 @@
+[
+  {
+    "problem_id": "train_problem0",
+    "goals": [
+      "(at p0 l20)",
+      "(at p1 l00)"
+    ],
+    "reference_plan_steps": 7,
+    "selected_replays": 24,
+    "successes": 23,
+    "failures": 1,
+    "occurrences": [
+      {
+        "case_id": "H08",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H15",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H21",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H23",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H25",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H26",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H28",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H29",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H32",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H33",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H34",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H35",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H36",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H38",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H40",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H42",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H44",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H45",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H46",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H47",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H49",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H50",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H52",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H55",
+        "trace_id": "S1",
+        "success": true
+      }
+    ]
+  },
+  {
+    "problem_id": "train_problem1",
+    "goals": [
+      "(at p0 l40)",
+      "(at p1 l50)",
+      "(at p2 l50)",
+      "(at p3 l50)",
+      "(at p4 l10)"
+    ],
+    "reference_plan_steps": 14,
+    "selected_replays": 24,
+    "successes": 20,
+    "failures": 4,
+    "occurrences": [
+      {
+        "case_id": "H08",
+        "trace_id": "S2",
+        "success": true
+      },
+      {
+        "case_id": "H15",
+        "trace_id": "S2",
+        "success": true
+      },
+      {
+        "case_id": "H21",
+        "trace_id": "S2",
+        "success": true
+      },
+      {
+        "case_id": "H23",
+        "trace_id": "S2",
+        "success": true
+      },
+      {
+        "case_id": "H25",
+        "trace_id": "S2",
+        "success": true
+      },
+      {
+        "case_id": "H26",
+        "trace_id": "S2",
+        "success": true
+      },
+      {
+        "case_id": "H28",
+        "trace_id": "S2",
+        "success": true
+      },
+      {
+        "case_id": "H29",
+        "trace_id": "S2",
+        "success": true
+      },
+      {
+        "case_id": "H32",
+        "trace_id": "S2",
+        "success": true
+      },
+      {
+        "case_id": "H33",
+        "trace_id": "S2",
+        "success": true
+      },
+      {
+        "case_id": "H34",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H35",
+        "trace_id": "S2",
+        "success": true
+      },
+      {
+        "case_id": "H36",
+        "trace_id": "S2",
+        "success": true
+      },
+      {
+        "case_id": "H38",
+        "trace_id": "S2",
+        "success": true
+      },
+      {
+        "case_id": "H40",
+        "trace_id": "S2",
+        "success": true
+      },
+      {
+        "case_id": "H42",
+        "trace_id": "S2",
+        "success": true
+      },
+      {
+        "case_id": "H44",
+        "trace_id": "S2",
+        "success": true
+      },
+      {
+        "case_id": "H45",
+        "trace_id": "S2",
+        "success": true
+      },
+      {
+        "case_id": "H46",
+        "trace_id": "S2",
+        "success": true
+      },
+      {
+        "case_id": "H47",
+        "trace_id": "S2",
+        "success": true
+      },
+      {
+        "case_id": "H49",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H50",
+        "trace_id": "S2",
+        "success": true
+      },
+      {
+        "case_id": "H52",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H55",
+        "trace_id": "F1",
+        "success": false
+      }
+    ]
+  },
+  {
+    "problem_id": "train_problem2",
+    "goals": [
+      "(at p0 l11)",
+      "(at p1 l00)"
+    ],
+    "reference_plan_steps": 6,
+    "selected_replays": 28,
+    "successes": 10,
+    "failures": 18,
+    "occurrences": [
+      {
+        "case_id": "H08",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H15",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H21",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H23",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H25",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H26",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H28",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H29",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H34",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H35",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H36",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H38",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H40",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H41",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H42",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H43",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H44",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H45",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H46",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H47",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H48",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H49",
+        "trace_id": "S2",
+        "success": true
+      },
+      {
+        "case_id": "H50",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H51",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H52",
+        "trace_id": "S2",
+        "success": true
+      },
+      {
+        "case_id": "H53",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H54",
+        "trace_id": "S1",
+        "success": true
+      },
+      {
+        "case_id": "H55",
+        "trace_id": "S2",
+        "success": true
+      }
+    ]
+  },
+  {
+    "problem_id": "train_problem3",
+    "goals": [
+      "(at p0 l20)",
+      "(at p1 l10)",
+      "(at p2 l20)"
+    ],
+    "reference_plan_steps": 6,
+    "selected_replays": 1,
+    "successes": 1,
+    "failures": 0,
+    "occurrences": [
+      {
+        "case_id": "H34",
+        "trace_id": "S2",
+        "success": true
+      }
+    ]
+  },
+  {
+    "problem_id": "train_problem4",
+    "goals": [
+      "(at p0 l50)",
+      "(at p1 l40)",
+      "(at p2 l30)",
+      "(at p3 l20)"
+    ],
+    "reference_plan_steps": 9,
+    "selected_replays": 3,
+    "successes": 0,
+    "failures": 3,
+    "occurrences": [
+      {
+        "case_id": "H49",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H52",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H55",
+        "trace_id": "F2",
+        "success": false
+      }
+    ]
+  },
+  {
+    "problem_id": "train_problem5",
+    "goals": [
+      "(at p0 l02)",
+      "(at p1 l12)",
+      "(at p2 l10)",
+      "(at p3 l01)",
+      "(at p4 l12)",
+      "(at p5 l00)"
+    ],
+    "reference_plan_steps": 25,
+    "selected_replays": 26,
+    "successes": 0,
+    "failures": 26,
+    "occurrences": [
+      {
+        "case_id": "H08",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H15",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H21",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H23",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H25",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H26",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H28",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H29",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H32",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H33",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H35",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H36",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H38",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H40",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H41",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H42",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H43",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H44",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H45",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H46",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H47",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H48",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H50",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H51",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H53",
+        "trace_id": "F1",
+        "success": false
+      },
+      {
+        "case_id": "H54",
+        "trace_id": "F1",
+        "success": false
+      }
+    ]
+  },
+  {
+    "problem_id": "train_problem7",
+    "goals": [
+      "(at p0 l02)",
+      "(at p1 l32)",
+      "(at p2 l10)",
+      "(at p3 l32)"
+    ],
+    "reference_plan_steps": 30,
+    "selected_replays": 8,
+    "successes": 0,
+    "failures": 8,
+    "occurrences": [
+      {
+        "case_id": "H32",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H33",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H41",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H43",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H48",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H51",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H53",
+        "trace_id": "F2",
+        "success": false
+      },
+      {
+        "case_id": "H54",
+        "trace_id": "F2",
+        "success": false
+      }
+    ]
+  },
+  {
+    "problem_id": "train_problem9",
+    "goals": [
+      "(at p0 l30)",
+      "(at p1 l01)",
+      "(at p2 l20)",
+      "(at p3 l21)",
+      "(at p4 l01)"
+    ],
+    "reference_plan_steps": 14,
+    "selected_replays": 1,
+    "successes": 1,
+    "failures": 0,
+    "occurrences": [
+      {
+        "case_id": "H48",
+        "trace_id": "S2",
+        "success": true
+      }
+    ]
+  },
+  {
+    "problem_id": "train_problem15",
+    "goals": [
+      "(at p0 l21)",
+      "(at p1 l22)",
+      "(at p2 l31)"
+    ],
+    "reference_plan_steps": 16,
+    "selected_replays": 1,
+    "successes": 1,
+    "failures": 0,
+    "occurrences": [
+      {
+        "case_id": "H53",
+        "trace_id": "S2",
+        "success": true
+      }
+    ]
+  },
+  {
+    "problem_id": "train_problem16",
+    "goals": [
+      "(at p0 l30)",
+      "(at p1 l21)",
+      "(at p2 l11)",
+      "(at p3 l30)"
+    ],
+    "reference_plan_steps": 13,
+    "selected_replays": 4,
+    "successes": 4,
+    "failures": 0,
+    "occurrences": [
+      {
+        "case_id": "H41",
+        "trace_id": "S2",
+        "success": true
+      },
+      {
+        "case_id": "H43",
+        "trace_id": "S2",
+        "success": true
+      },
+      {
+        "case_id": "H51",
+        "trace_id": "S2",
+        "success": true
+      },
+      {
+        "case_id": "H54",
+        "trace_id": "S2",
+        "success": true
+      }
+    ]
+  }
+]

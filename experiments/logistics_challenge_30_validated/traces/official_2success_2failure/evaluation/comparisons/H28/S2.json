@@ -1,0 +1,9 @@
+{
+  "reference_trace": "evaluation/reference_traces/train_problem1.trace.json",
+  "mutant_trace": "by_domain/H28/S2.trace.json",
+  "reference_success": true,
+  "mutant_success": true,
+  "evaluation_only_first_state_or_execution_divergence_step": null,
+  "first_rejected_step": null,
+  "failure_kind": null
+}

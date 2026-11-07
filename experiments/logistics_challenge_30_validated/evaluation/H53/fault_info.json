@@ -1,0 +1,17 @@
+{
+  "case_id": "H53",
+  "group_id": "G15",
+  "group_title": "裝卸破壞共用機場資格",
+  "description_zh_tw": "卡車裝貨把所在地機場資格刪除，之後飛行受阻",
+  "faulty_action": "LOAD-TRUCK",
+  "component": ":effect",
+  "original_slot_1based": 3,
+  "original_line_1based": 24,
+  "original_assertion": null,
+  "replacement_assertion": "(not (AIRPORT ?loc))",
+  "operation": "add",
+  "domain_sha256": "fc25bdd67ceff2f7e9dd3c2badaefa59c3b9ea72071afcf95375d88d4ffd9488",
+  "blind_id": "B-fc25bdd67cef",
+  "source_legacy_case": null,
+  "novelty_note": "新的 H 系列 Assertion 編輯位置或內容；未主張獨立語意難度"
+}

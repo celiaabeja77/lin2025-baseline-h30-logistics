@@ -1,0 +1,17 @@
+{
+  "case_id": "H42",
+  "group_id": "G11",
+  "group_title": "一般地點被錯限縮為機場",
+  "description_zh_tw": "卡車只准在機場卸貨，倉庫配送被拒絕",
+  "faulty_action": "UNLOAD-TRUCK",
+  "component": ":precondition",
+  "original_slot_1based": 3,
+  "original_line_1based": 43,
+  "original_assertion": "(LOCATION ?loc)",
+  "replacement_assertion": "(AIRPORT ?loc)",
+  "operation": "replace",
+  "domain_sha256": "1fe5d140cfe66fa7cef274bc70240689436df14afd3cecca8c86179bcf820f01",
+  "blind_id": "B-1fe5d140cfe6",
+  "source_legacy_case": "L02",
+  "novelty_note": "與早期 L 系列相同設計；首次納入正式 H 系列"
+}

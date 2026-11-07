@@ -1,0 +1,47 @@
+[
+  {
+    "source": "depot_assertion_sbfl/src/__init__.py",
+    "copy": "src/__init__.py",
+    "sha256": "aa6a0af8565b473be12b1fee017a17d0e5b3840d882155f8d9db0214afaaade0"
+  },
+  {
+    "source": "depot_assertion_sbfl/src/assertion_coverage.py",
+    "copy": "src/assertion_coverage.py",
+    "sha256": "fbc1bfc5cb7a41f4795e5d6b09ff49e5197bac1ab10f76b72a9181de6846d243"
+  },
+  {
+    "source": "depot_assertion_sbfl/src/literal.py",
+    "copy": "src/literal.py",
+    "sha256": "aea539d1d70d71e34f17e8165169f39873df8c24da8f8a213b8e5bcea94aab14"
+  },
+  {
+    "source": "depot_assertion_sbfl/src/pddl_assertions.py",
+    "copy": "src/pddl_assertions.py",
+    "sha256": "8c5e335daad8b43a167331f359227de874b24f077f95bea64c428d1f223e60db"
+  },
+  {
+    "source": "depot_assertion_sbfl/src/ranking.py",
+    "copy": "src/ranking.py",
+    "sha256": "32a7eabe7a35e1234961bbe78c8759cdfbb41ff33cbe65c2064d189d19e23142"
+  },
+  {
+    "source": "depot_assertion_sbfl/src/ochiai.py",
+    "copy": "src/ochiai.py",
+    "sha256": "35b1aff1064b1a4c2d2b5bebd6f80f2930ef184ed7674e96b18272c1ed187c92"
+  },
+  {
+    "source": "depot_assertion_sbfl/src/utils.py",
+    "copy": "src/utils.py",
+    "sha256": "c03042b60df28f3fc73fd2ce7614277a41d9b9d4baaf593babfacf8bba795301"
+  },
+  {
+    "source": "depot_assertion_sbfl/src/evaluation.py",
+    "copy": "src/evaluation.py",
+    "sha256": "ee5a9b6b9a4ef5b138be0d4b53d40c8883493d98122406e6ab3b211bbf7d5509"
+  },
+  {
+    "source": "depot_assertion_sbfl/export_topk.py",
+    "copy": "baseline_topk.py",
+    "sha256": "9caf23078aa6635bc93c0b5d8a13424581e1ddd34fc5328b4043d95d65aa83dd"
+  }
+]

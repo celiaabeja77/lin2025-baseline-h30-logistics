@@ -1,0 +1,17 @@
+{
+  "case_id": "H48",
+  "group_id": "G13",
+  "group_title": "裝卸誤刪參與者身分",
+  "description_zh_tw": "卸貨後貨物失去 OBJ 身分，後續轉運被拒絕",
+  "faulty_action": "UNLOAD-TRUCK",
+  "component": ":effect",
+  "original_slot_1based": 3,
+  "original_line_1based": 46,
+  "original_assertion": null,
+  "replacement_assertion": "(not (OBJ ?obj))",
+  "operation": "add",
+  "domain_sha256": "c3757a90ef9c1831d4828d9a522b9a4e01a16f9a64b11f85c7c782260807b26a",
+  "blind_id": "B-c3757a90ef9c",
+  "source_legacy_case": null,
+  "novelty_note": "新的 H 系列 Assertion 編輯位置或內容；未主張獨立語意難度"
+}

@@ -1,0 +1,17 @@
+{
+  "case_id": "H51",
+  "group_id": "G14",
+  "group_title": "裝卸誤刪運具所在位置",
+  "description_zh_tw": "卸貨後卡車位置被刪，後續再利用失敗",
+  "faulty_action": "UNLOAD-TRUCK",
+  "component": ":effect",
+  "original_slot_1based": 3,
+  "original_line_1based": 46,
+  "original_assertion": null,
+  "replacement_assertion": "(not (at ?truck ?loc))",
+  "operation": "add",
+  "domain_sha256": "5af0758917fe519f7672dd13436d32ad53ce09f75015be395a6d3413869946ca",
+  "blind_id": "B-5af0758917fe",
+  "source_legacy_case": null,
+  "novelty_note": "新的 H 系列 Assertion 編輯位置或內容；未主張獨立語意難度"
+}

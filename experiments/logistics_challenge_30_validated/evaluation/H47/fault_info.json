@@ -1,0 +1,17 @@
+{
+  "case_id": "H47",
+  "group_id": "G13",
+  "group_title": "裝卸誤刪參與者身分",
+  "description_zh_tw": "裝貨後卡車失去 TRUCK 身分，後續行駛或裝卸被拒絕",
+  "faulty_action": "LOAD-TRUCK",
+  "component": ":effect",
+  "original_slot_1based": 3,
+  "original_line_1based": 24,
+  "original_assertion": null,
+  "replacement_assertion": "(not (TRUCK ?truck))",
+  "operation": "add",
+  "domain_sha256": "816d0a46bf9778fd106d626b87e599181e5952b4a2ecb22201630d4791ee793a",
+  "blind_id": "B-816d0a46bf97",
+  "source_legacy_case": null,
+  "novelty_note": "新的 H 系列 Assertion 編輯位置或內容；未主張獨立語意難度"
+}

@@ -1,0 +1,9 @@
+--- reference/domain.pddl
++++ H34/domain.pddl
+@@ -79,5 +79,5 @@
+    (and (AIRPLANE ?airplane) (AIRPORT ?loc-from) (AIRPORT ?loc-to)
+ 	(at ?airplane ?loc-from))
+   :effect
+-   (and (not (at ?airplane ?loc-from)) (at ?airplane ?loc-to)))
++   (and (not (at ?airplane ?loc-from)) (at ?airplane ?loc-to) (not (AIRPORT ?loc-to))))
+ )

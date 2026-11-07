@@ -1,0 +1,26 @@
+{
+  "case_id": "H26",
+  "group_id": "G6",
+  "group_title": "關係方向寫反",
+  "requested_category": 3,
+  "description_zh_tw": "裝卡車把貨在車內寫成車在貨內",
+  "faulty_action": "LOAD-TRUCK",
+  "component": ":effect",
+  "original_slot_1based": 2,
+  "original_line_1based": 24,
+  "original_assertion": "(in ?obj ?truck)",
+  "replacement_assertion": "(in ?truck ?obj)",
+  "operation": "replace",
+  "domain_sha256": "135d8cf4d889153a965527068499c6a3c140404732b35ef2ca9e9d383885d38d",
+  "blind_id": "B-135d8cf4d889",
+  "structural_checks": {
+    "single_assertion_edit": true,
+    "unchanged_declarations_parameters_and_other_assertions": true,
+    "undeclared_predicates_or_variables": false,
+    "duplicate_assertions": false,
+    "action_count": 6,
+    "predicate_count": 9
+  },
+  "source_candidate_id": null,
+  "source_legacy_case": null
+}

@@ -1,0 +1,11 @@
+--- reference/domain.pddl
++++ H28/domain.pddl
+@@ -41,7 +41,7 @@
+     ?loc)
+   :precondition
+    (and (OBJ ?obj) (TRUCK ?truck) (LOCATION ?loc)
+-        (at ?truck ?loc) (in ?obj ?truck))
++        (at ?truck ?loc) (in ?truck ?obj))
+   :effect
+    (and (not (in ?obj ?truck)) (at ?obj ?loc)))
+ 

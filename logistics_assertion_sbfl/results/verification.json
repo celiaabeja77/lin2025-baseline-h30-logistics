@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "recorded_mutant_steps_checked": 988,
+  "failed_traces": 60,
+  "successful_traces": 60,
+  "rankable_cases": 27,
+  "assertion_rows_checked": 1301,
+  "coverage_bits_checked": 5204,
+  "cases_checked": 30,
+  "missing_assertion_cases": 3,
+  "reference_traces_checked": 10,
+  "input_files_unchanged": true,
+  "blind_and_evaluated_rankings_identical_except_gold_marker": true,
+  "all_source_grounded_conditions_and_effects_match_parsed_PDDL": true,
+  "all_single_assertion_edits_rechecked_against_reference": true,
+  "all_topk_candidate_lists_and_both_metric_denominators_recomputed": true,
+  "verification_scope": "Independent saved-evidence arithmetic and recorded transition checks; no new planner/simulator run"
+}

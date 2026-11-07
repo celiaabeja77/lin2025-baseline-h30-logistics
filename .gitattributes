@@ -1,0 +1,3 @@
+# Preserve the verified experiment snapshots and SHA-256 inputs.
+/logistics_assertion_sbfl/** -text
+/experiments/logistics_challenge_30_validated/** -text

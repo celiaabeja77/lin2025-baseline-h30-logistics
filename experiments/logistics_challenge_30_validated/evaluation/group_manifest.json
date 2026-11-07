@@ -1,0 +1,314 @@
+[
+  {
+    "id": "G2",
+    "title": "行程端點關係錯綁或漏綁",
+    "mechanism": "行程前置條件未把起點、終點、目前位置與城市正確連結",
+    "difficulty_point": "起點與終點型別相同，位置不衝突，但路線角色或城市關係錯誤",
+    "ontology_knowledge": "起終點的不同角色、同城市限制、目前位置與起點的對應",
+    "llm_target": "分清楚錯的是起點、終點還是城市條件，定位到變數／Literal",
+    "members": [
+      [
+        "H08",
+        "卡車把出發地檢查綁成目的地"
+      ]
+    ],
+    "source_range": "H06～H10",
+    "member_count": 1,
+    "retained_ids": [
+      "H08"
+    ]
+  },
+  {
+    "id": "G3",
+    "title": "貨物來源與承載身分混淆",
+    "mechanism": "裝卸前置條件未正確核對這件貨的來源位置或承載運具",
+    "difficulty_point": "同型別貨物與運具很多，貨物來源／承載者被認錯；有些早期異常還會被後續操作消除",
+    "ontology_knowledge": "這件貨從哪裡來、裝在哪個運具，以及地面與已裝載兩種角色",
+    "llm_target": "追蹤特定貨物身分，區分位置條件、承載條件與錯誤關係替換",
+    "members": [
+      [
+        "H15",
+        "卡車裝貨把地面來源錯寫成已在車內"
+      ]
+    ],
+    "source_range": "H11～H15",
+    "member_count": 1,
+    "retained_ids": [
+      "H15"
+    ]
+  },
+  {
+    "id": "G5",
+    "title": "新狀態漏建立，後段才受阻",
+    "mechanism": "刪掉一條應建立新位置／承載關係的 Add Effect",
+    "difficulty_point": "動作先執行了，卻沒留下下一個動作需要的狀態；經過交錯運送後才卡住",
+    "ontology_knowledge": "動作產生與消耗的關係、狀態完整性及上游／下游依賴",
+    "llm_target": "從缺少的條件追查應建立它的上游 Effect",
+    "members": [
+      [
+        "H21",
+        "裝貨漏記貨在卡車內"
+      ],
+      [
+        "H23",
+        "開車漏記卡車抵達位置"
+      ],
+      [
+        "H25",
+        "卸貨漏記貨物地面位置"
+      ]
+    ],
+    "source_range": "H21～H25",
+    "member_count": 3,
+    "retained_ids": [
+      "H21",
+      "H23",
+      "H25"
+    ]
+  },
+  {
+    "id": "G6",
+    "requested_category": 3,
+    "title": "關係方向寫反",
+    "members": [
+      [
+        "H26",
+        "裝卡車把貨在車內寫成車在貨內"
+      ],
+      [
+        "H28",
+        "卸卡車錯查卡車是否在貨物內"
+      ]
+    ],
+    "source_range": "H26～H28",
+    "member_count": 2,
+    "retained_ids": [
+      "H26",
+      "H28"
+    ]
+  },
+  {
+    "id": "G7",
+    "requested_category": 5,
+    "title": "Effect 改到錯誤對象",
+    "members": [
+      [
+        "H29",
+        "裝卡車誤清掉卡車位置，貨物舊位置反而保留"
+      ]
+    ],
+    "source_range": "H29～H31",
+    "member_count": 1,
+    "retained_ids": [
+      "H29"
+    ]
+  },
+  {
+    "id": "G8",
+    "requested_category": 6,
+    "title": "動作破壞共享地圖",
+    "members": [
+      [
+        "H32",
+        "開車誤刪起點的城市歸屬，另一台車稍後受阻"
+      ],
+      [
+        "H33",
+        "開車誤刪終點的城市歸屬，另一台車稍後受阻"
+      ],
+      [
+        "H34",
+        "飛行誤刪目的地機場資格，另一架飛機無法降落"
+      ]
+    ],
+    "source_range": "H32～H34",
+    "member_count": 3,
+    "retained_ids": [
+      "H32",
+      "H33",
+      "H34"
+    ]
+  },
+  {
+    "id": "G9",
+    "requested_category": 7,
+    "title": "動作破壞物件身分",
+    "members": [
+      [
+        "H35",
+        "裝貨後貨在車內，卻失去貨物身分"
+      ],
+      [
+        "H36",
+        "開車後位置正常，卻失去卡車身分"
+      ]
+    ],
+    "source_range": "H35～H37",
+    "member_count": 2,
+    "retained_ids": [
+      "H35",
+      "H36"
+    ]
+  },
+  {
+    "id": "G10",
+    "requested_category": 8,
+    "title": "新狀態錯寫回原處",
+    "members": [
+      [
+        "H38",
+        "開車新位置寫回起點，動作完成卻沒有移動"
+      ],
+      [
+        "H40",
+        "裝貨把車內紀錄寫回地面原處，貨沒有裝入車內"
+      ]
+    ],
+    "source_range": "H38～H40",
+    "member_count": 2,
+    "retained_ids": [
+      "H38",
+      "H40"
+    ]
+  },
+  {
+    "id": "G11",
+    "title": "一般地點被錯限縮為機場",
+    "mechanism": "把卡車可使用的一般 LOCATION 改成 AIRPORT 子類別條件",
+    "semantic_evidence": "AIRPORT 是 LOCATION 的子集合；一般地點也能裝卸貨及出發",
+    "distinctive_target": "Precondition 的允許範圍",
+    "members": [
+      [
+        "H41",
+        "卡車只准在機場裝貨，倉庫裝貨被拒絕"
+      ],
+      [
+        "H42",
+        "卡車只准在機場卸貨，倉庫配送被拒絕"
+      ],
+      [
+        "H43",
+        "卡車只准從機場出發，從倉庫出發被拒絕"
+      ]
+    ],
+    "source_range": "H41–H43",
+    "member_count": 3,
+    "retained_ids": [
+      "H41",
+      "H42",
+      "H43"
+    ]
+  },
+  {
+    "id": "G12",
+    "title": "地面位置與承載關係寫錯",
+    "mechanism": "Effect 保留原參數次序，但把 at 與 in 的關係種類寫錯",
+    "semantic_evidence": "at 表示位於地點；in 表示貨物由運具承載；兩者不可互換",
+    "distinctive_target": "動作應建立的關係種類",
+    "members": [
+      [
+        "H44",
+        "裝貨後把卡車當地點，沒有正確建立承載關係"
+      ],
+      [
+        "H45",
+        "卸貨後把地點當容器，沒有正確建立地面位置"
+      ],
+      [
+        "H46",
+        "行駛後寫成卡車被地點承載，沒有正確記錄到站"
+      ]
+    ],
+    "source_range": "H44–H46",
+    "member_count": 3,
+    "retained_ids": [
+      "H44",
+      "H45",
+      "H46"
+    ]
+  },
+  {
+    "id": "G13",
+    "title": "裝卸誤刪參與者身分",
+    "mechanism": "貨物或運具仍存在，卻被裝卸動作刪掉其分類事實",
+    "semantic_evidence": "裝卸不應改變貨物或運具所屬類別；後續動作仍需要這些資格",
+    "distinctive_target": "貨物及運具的持續身分",
+    "members": [
+      [
+        "H47",
+        "裝貨後卡車失去 TRUCK 身分，後續行駛或裝卸被拒絕"
+      ],
+      [
+        "H48",
+        "卸貨後貨物失去 OBJ 身分，後續轉運被拒絕"
+      ],
+      [
+        "H49",
+        "卸貨後飛機失去 AIRPLANE 身分，後續再利用失敗"
+      ]
+    ],
+    "source_range": "H47–H49",
+    "member_count": 3,
+    "retained_ids": [
+      "H47",
+      "H48",
+      "H49"
+    ]
+  },
+  {
+    "id": "G14",
+    "title": "裝卸誤刪運具所在位置",
+    "mechanism": "貨物裝卸同時把運具的 at 事實刪掉，讓後續定位查不到運具",
+    "semantic_evidence": "裝卸只移動貨物，運具在該動作中應停留原地",
+    "distinctive_target": "運具位置的 frame condition",
+    "members": [
+      [
+        "H50",
+        "裝貨後卡車原地消失，後續定位條件不成立"
+      ],
+      [
+        "H51",
+        "卸貨後卡車位置被刪，後續再利用失敗"
+      ],
+      [
+        "H52",
+        "卸貨後飛機位置被刪，後續飛行或裝卸失敗"
+      ]
+    ],
+    "source_range": "H50–H52",
+    "member_count": 3,
+    "retained_ids": [
+      "H50",
+      "H51",
+      "H52"
+    ]
+  },
+  {
+    "id": "G15",
+    "title": "裝卸破壞共用機場資格",
+    "mechanism": "個別貨物操作刪除所在地的 AIRPORT 事實，影響其他運送",
+    "semantic_evidence": "貨物操作不應更改公用航點資格；其他飛行仍依賴同一地點",
+    "distinctive_target": "共用地理資源的跨動作依賴",
+    "members": [
+      [
+        "H53",
+        "卡車裝貨把所在地機場資格刪除，之後飛行受阻"
+      ],
+      [
+        "H54",
+        "卡車卸貨把轉運機場資格刪除，之後飛行受阻"
+      ],
+      [
+        "H55",
+        "飛機卸貨刪除共用機場資格，之後起降受阻"
+      ]
+    ],
+    "source_range": "H53–H55",
+    "member_count": 3,
+    "retained_ids": [
+      "H53",
+      "H54",
+      "H55"
+    ]
+  }
+]

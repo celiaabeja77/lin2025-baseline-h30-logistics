@@ -1,0 +1,17 @@
+{
+  "case_id": "H49",
+  "group_id": "G13",
+  "group_title": "裝卸誤刪參與者身分",
+  "description_zh_tw": "卸貨後飛機失去 AIRPLANE 身分，後續再利用失敗",
+  "faulty_action": "UNLOAD-AIRPLANE",
+  "component": ":effect",
+  "original_slot_1based": 3,
+  "original_line_1based": 57,
+  "original_assertion": null,
+  "replacement_assertion": "(not (AIRPLANE ?airplane))",
+  "operation": "add",
+  "domain_sha256": "c34cedef640b40468fd77e28da851bf6c48851b923b82be347f563039adabf5f",
+  "blind_id": "B-c34cedef640b",
+  "source_legacy_case": null,
+  "novelty_note": "新的 H 系列 Assertion 編輯位置或內容；未主張獨立語意難度"
+}

@@ -1,0 +1,26 @@
+{
+  "case_id": "H36",
+  "group_id": "G9",
+  "group_title": "動作破壞物件身分",
+  "requested_category": 7,
+  "description_zh_tw": "開車後位置正常，卻失去卡車身分",
+  "faulty_action": "DRIVE-TRUCK",
+  "component": ":effect",
+  "original_slot_1based": 3,
+  "original_line_1based": 71,
+  "original_assertion": null,
+  "replacement_assertion": "(not (TRUCK ?truck))",
+  "operation": "add",
+  "domain_sha256": "cb98efc8fb900034e70bb95dee2f60d80d0815baf3edd80b7bebd533f9a1b45e",
+  "blind_id": "B-cb98efc8fb90",
+  "structural_checks": {
+    "single_assertion_edit": true,
+    "unchanged_declarations_parameters_and_other_assertions": true,
+    "undeclared_predicates_or_variables": false,
+    "duplicate_assertions": false,
+    "action_count": 6,
+    "predicate_count": 9
+  },
+  "source_candidate_id": null,
+  "source_legacy_case": null
+}

@@ -1,0 +1,25 @@
+{
+  "case_id": "H08",
+  "group_id": "G2",
+  "group_title": "行程端點關係錯綁或漏綁",
+  "description_zh_tw": "卡車把出發地檢查綁成目的地",
+  "source_candidate_id": "H07",
+  "source_legacy_case": null,
+  "faulty_action": "DRIVE-TRUCK",
+  "component": ":precondition",
+  "original_slot_1based": 5,
+  "original_line_1based": 67,
+  "original_assertion": "(at ?truck ?loc-from)",
+  "replacement_assertion": "(at ?truck ?loc-to)",
+  "domain_sha256": "4e5c06890cf11342e1ff63a35a5d621028f26e18f0961379fd1fd3b095b00b65",
+  "blind_id": "B-4e5c06890cf1",
+  "structural_checks": {
+    "single_assertion_edit": true,
+    "unchanged_declarations_parameters_and_other_assertions": true,
+    "undeclared_predicates_or_variables": false,
+    "duplicate_assertions": false,
+    "literal_count": 43,
+    "action_count": 6,
+    "predicate_count": 9
+  }
+}

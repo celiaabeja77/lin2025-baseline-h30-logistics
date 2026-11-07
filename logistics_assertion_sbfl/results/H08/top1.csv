@@ -1,0 +1,8 @@
+case_id,assertion_id,action,section,component_type,literal,ef,ep,total_failure_traces,ochiai,best_rank,worst_rank,average_rank,tie_group_size,is_ground_truth
+H08,DRIVE-TRUCK.precondition[1],DRIVE-TRUCK,precondition,precondition_positive,(TRUCK ?truck),2,0,2,1.0,1,7,4.0,7,false
+H08,DRIVE-TRUCK.precondition[2],DRIVE-TRUCK,precondition,precondition_positive,(LOCATION ?loc-from),2,0,2,1.0,1,7,4.0,7,false
+H08,DRIVE-TRUCK.precondition[3],DRIVE-TRUCK,precondition,precondition_positive,(LOCATION ?loc-to),2,0,2,1.0,1,7,4.0,7,false
+H08,DRIVE-TRUCK.precondition[4],DRIVE-TRUCK,precondition,precondition_positive,(CITY ?city),2,0,2,1.0,1,7,4.0,7,false
+H08,DRIVE-TRUCK.precondition[5],DRIVE-TRUCK,precondition,precondition_positive,(at ?truck ?loc-to),2,0,2,1.0,1,7,4.0,7,true
+H08,DRIVE-TRUCK.precondition[6],DRIVE-TRUCK,precondition,precondition_positive,(in-city ?loc-from ?city),2,0,2,1.0,1,7,4.0,7,false
+H08,DRIVE-TRUCK.precondition[7],DRIVE-TRUCK,precondition,precondition_positive,(in-city ?loc-to ?city),2,0,2,1.0,1,7,4.0,7,false

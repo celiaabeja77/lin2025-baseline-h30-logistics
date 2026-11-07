@@ -1,0 +1,11 @@
+--- reference/domain.pddl
++++ H32/domain.pddl
+@@ -68,7 +68,7 @@
+    (in-city ?loc-from ?city)
+    (in-city ?loc-to ?city))
+   :effect
+-   (and (not (at ?truck ?loc-from)) (at ?truck ?loc-to)))
++   (and (not (at ?truck ?loc-from)) (at ?truck ?loc-to) (not (in-city ?loc-from ?city))))
+ 
+ (:action FLY-AIRPLANE
+   :parameters

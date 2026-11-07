@@ -1,0 +1,26 @@
+{
+  "case_id": "H35",
+  "group_id": "G9",
+  "group_title": "動作破壞物件身分",
+  "requested_category": 7,
+  "description_zh_tw": "裝貨後貨在車內，卻失去貨物身分",
+  "faulty_action": "LOAD-TRUCK",
+  "component": ":effect",
+  "original_slot_1based": 3,
+  "original_line_1based": 24,
+  "original_assertion": null,
+  "replacement_assertion": "(not (OBJ ?obj))",
+  "operation": "add",
+  "domain_sha256": "6ce33758b7aa85f104fd6f518ae4dbdfa198e9e324b8e923fd24f9749c7eb961",
+  "blind_id": "B-6ce33758b7aa",
+  "structural_checks": {
+    "single_assertion_edit": true,
+    "unchanged_declarations_parameters_and_other_assertions": true,
+    "undeclared_predicates_or_variables": false,
+    "duplicate_assertions": false,
+    "action_count": 6,
+    "predicate_count": 9
+  },
+  "source_candidate_id": null,
+  "source_legacy_case": null
+}

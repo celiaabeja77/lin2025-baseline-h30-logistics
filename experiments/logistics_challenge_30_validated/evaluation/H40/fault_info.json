@@ -1,0 +1,26 @@
+{
+  "case_id": "H40",
+  "group_id": "G10",
+  "group_title": "新狀態錯寫回原處",
+  "requested_category": 8,
+  "description_zh_tw": "裝貨把車內紀錄寫回地面原處，貨沒有裝入車內",
+  "faulty_action": "LOAD-TRUCK",
+  "component": ":effect",
+  "original_slot_1based": 2,
+  "original_line_1based": 24,
+  "original_assertion": "(in ?obj ?truck)",
+  "replacement_assertion": "(at ?obj ?loc)",
+  "operation": "replace",
+  "domain_sha256": "40cd9e95566c16cbb434d27e99310a36c77f8a9caddd813831ce47b01bdbb346",
+  "blind_id": "B-40cd9e95566c",
+  "structural_checks": {
+    "single_assertion_edit": true,
+    "unchanged_declarations_parameters_and_other_assertions": true,
+    "undeclared_predicates_or_variables": false,
+    "duplicate_assertions": false,
+    "action_count": 6,
+    "predicate_count": 9
+  },
+  "source_candidate_id": null,
+  "source_legacy_case": null
+}

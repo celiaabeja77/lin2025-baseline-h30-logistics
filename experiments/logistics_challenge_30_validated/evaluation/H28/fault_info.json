@@ -1,0 +1,26 @@
+{
+  "case_id": "H28",
+  "group_id": "G6",
+  "group_title": "關係方向寫反",
+  "requested_category": 3,
+  "description_zh_tw": "卸卡車錯查卡車是否在貨物內",
+  "faulty_action": "UNLOAD-TRUCK",
+  "component": ":precondition",
+  "original_slot_1based": 5,
+  "original_line_1based": 44,
+  "original_assertion": "(in ?obj ?truck)",
+  "replacement_assertion": "(in ?truck ?obj)",
+  "operation": "replace",
+  "domain_sha256": "ff103565abec9cc5ca2b302f2bf34bd5d69077e320ff6a3e4b2c7d7c78ab6fc3",
+  "blind_id": "B-ff103565abec",
+  "structural_checks": {
+    "single_assertion_edit": true,
+    "unchanged_declarations_parameters_and_other_assertions": true,
+    "undeclared_predicates_or_variables": false,
+    "duplicate_assertions": false,
+    "action_count": 6,
+    "predicate_count": 9
+  },
+  "source_candidate_id": null,
+  "source_legacy_case": null
+}

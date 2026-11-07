@@ -1,0 +1,252 @@
+[
+  {
+    "problem_id": "train_problem0",
+    "goal_count": 2,
+    "cross_city_goal_count": 2
+  },
+  {
+    "problem_id": "train_problem1",
+    "goal_count": 5,
+    "cross_city_goal_count": 5
+  },
+  {
+    "problem_id": "train_problem2",
+    "goal_count": 2,
+    "cross_city_goal_count": 1
+  },
+  {
+    "problem_id": "train_problem3",
+    "goal_count": 3,
+    "cross_city_goal_count": 2
+  },
+  {
+    "problem_id": "train_problem4",
+    "goal_count": 4,
+    "cross_city_goal_count": 3
+  },
+  {
+    "problem_id": "train_problem5",
+    "goal_count": 6,
+    "cross_city_goal_count": 2
+  },
+  {
+    "problem_id": "train_problem6",
+    "goal_count": 5,
+    "cross_city_goal_count": 5
+  },
+  {
+    "problem_id": "train_problem7",
+    "goal_count": 4,
+    "cross_city_goal_count": 4
+  },
+  {
+    "problem_id": "train_problem8",
+    "goal_count": 3,
+    "cross_city_goal_count": 2
+  },
+  {
+    "problem_id": "train_problem9",
+    "goal_count": 5,
+    "cross_city_goal_count": 1
+  },
+  {
+    "problem_id": "train_problem10",
+    "goal_count": 5,
+    "cross_city_goal_count": 2
+  },
+  {
+    "problem_id": "train_problem11",
+    "goal_count": 3,
+    "cross_city_goal_count": 2
+  },
+  {
+    "problem_id": "train_problem12",
+    "goal_count": 3,
+    "cross_city_goal_count": 1
+  },
+  {
+    "problem_id": "train_problem13",
+    "goal_count": 3,
+    "cross_city_goal_count": 2
+  },
+  {
+    "problem_id": "train_problem14",
+    "goal_count": 6,
+    "cross_city_goal_count": 4
+  },
+  {
+    "problem_id": "train_problem15",
+    "goal_count": 3,
+    "cross_city_goal_count": 2
+  },
+  {
+    "problem_id": "train_problem16",
+    "goal_count": 4,
+    "cross_city_goal_count": 3
+  },
+  {
+    "problem_id": "train_problem17",
+    "goal_count": 6,
+    "cross_city_goal_count": 6
+  },
+  {
+    "problem_id": "train_problem18",
+    "goal_count": 3,
+    "cross_city_goal_count": 3
+  },
+  {
+    "problem_id": "train_problem19",
+    "goal_count": 4,
+    "cross_city_goal_count": 3
+  },
+  {
+    "problem_id": "train_problem20",
+    "goal_count": 6,
+    "cross_city_goal_count": 4
+  },
+  {
+    "problem_id": "train_problem21",
+    "goal_count": 5,
+    "cross_city_goal_count": 4
+  },
+  {
+    "problem_id": "train_problem22",
+    "goal_count": 2,
+    "cross_city_goal_count": 2
+  },
+  {
+    "problem_id": "train_problem23",
+    "goal_count": 2,
+    "cross_city_goal_count": 2
+  },
+  {
+    "problem_id": "train_problem24",
+    "goal_count": 5,
+    "cross_city_goal_count": 4
+  },
+  {
+    "problem_id": "train_problem25",
+    "goal_count": 6,
+    "cross_city_goal_count": 5
+  },
+  {
+    "problem_id": "train_problem26",
+    "goal_count": 4,
+    "cross_city_goal_count": 3
+  },
+  {
+    "problem_id": "train_problem27",
+    "goal_count": 4,
+    "cross_city_goal_count": 3
+  },
+  {
+    "problem_id": "train_problem28",
+    "goal_count": 5,
+    "cross_city_goal_count": 5
+  },
+  {
+    "problem_id": "train_problem29",
+    "goal_count": 6,
+    "cross_city_goal_count": 3
+  },
+  {
+    "problem_id": "train_problem30",
+    "goal_count": 2,
+    "cross_city_goal_count": 2
+  },
+  {
+    "problem_id": "train_problem31",
+    "goal_count": 6,
+    "cross_city_goal_count": 3
+  },
+  {
+    "problem_id": "train_problem32",
+    "goal_count": 6,
+    "cross_city_goal_count": 1
+  },
+  {
+    "problem_id": "train_problem33",
+    "goal_count": 6,
+    "cross_city_goal_count": 3
+  },
+  {
+    "problem_id": "train_problem34",
+    "goal_count": 4,
+    "cross_city_goal_count": 1
+  },
+  {
+    "problem_id": "train_problem35",
+    "goal_count": 6,
+    "cross_city_goal_count": 6
+  },
+  {
+    "problem_id": "train_problem36",
+    "goal_count": 5,
+    "cross_city_goal_count": 4
+  },
+  {
+    "problem_id": "train_problem37",
+    "goal_count": 2,
+    "cross_city_goal_count": 2
+  },
+  {
+    "problem_id": "train_problem38",
+    "goal_count": 2,
+    "cross_city_goal_count": 2
+  },
+  {
+    "problem_id": "train_problem39",
+    "goal_count": 6,
+    "cross_city_goal_count": 6
+  },
+  {
+    "problem_id": "test_problem40",
+    "goal_count": 21,
+    "cross_city_goal_count": 21
+  },
+  {
+    "problem_id": "test_problem41",
+    "goal_count": 23,
+    "cross_city_goal_count": 23
+  },
+  {
+    "problem_id": "test_problem42",
+    "goal_count": 23,
+    "cross_city_goal_count": 22
+  },
+  {
+    "problem_id": "test_problem43",
+    "goal_count": 24,
+    "cross_city_goal_count": 24
+  },
+  {
+    "problem_id": "test_problem44",
+    "goal_count": 23,
+    "cross_city_goal_count": 22
+  },
+  {
+    "problem_id": "test_problem45",
+    "goal_count": 23,
+    "cross_city_goal_count": 23
+  },
+  {
+    "problem_id": "test_problem46",
+    "goal_count": 21,
+    "cross_city_goal_count": 20
+  },
+  {
+    "problem_id": "test_problem47",
+    "goal_count": 23,
+    "cross_city_goal_count": 23
+  },
+  {
+    "problem_id": "test_problem48",
+    "goal_count": 24,
+    "cross_city_goal_count": 24
+  },
+  {
+    "problem_id": "test_problem49",
+    "goal_count": 22,
+    "cross_city_goal_count": 21
+  }
+]

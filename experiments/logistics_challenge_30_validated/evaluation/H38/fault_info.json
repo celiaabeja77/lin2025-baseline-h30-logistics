@@ -1,0 +1,26 @@
+{
+  "case_id": "H38",
+  "group_id": "G10",
+  "group_title": "新狀態錯寫回原處",
+  "requested_category": 8,
+  "description_zh_tw": "開車新位置寫回起點，動作完成卻沒有移動",
+  "faulty_action": "DRIVE-TRUCK",
+  "component": ":effect",
+  "original_slot_1based": 2,
+  "original_line_1based": 71,
+  "original_assertion": "(at ?truck ?loc-to)",
+  "replacement_assertion": "(at ?truck ?loc-from)",
+  "operation": "replace",
+  "domain_sha256": "4edfcfe7f910c3e5e356d633fa3ba195d0861bc6c00ec32a47772df182e66567",
+  "blind_id": "B-4edfcfe7f910",
+  "structural_checks": {
+    "single_assertion_edit": true,
+    "unchanged_declarations_parameters_and_other_assertions": true,
+    "undeclared_predicates_or_variables": false,
+    "duplicate_assertions": false,
+    "action_count": 6,
+    "predicate_count": 9
+  },
+  "source_candidate_id": null,
+  "source_legacy_case": null
+}

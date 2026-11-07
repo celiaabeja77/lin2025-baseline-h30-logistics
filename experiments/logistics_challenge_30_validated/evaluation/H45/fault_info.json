@@ -1,0 +1,17 @@
+{
+  "case_id": "H45",
+  "group_id": "G12",
+  "group_title": "地面位置與承載關係寫錯",
+  "description_zh_tw": "卸貨後把地點當容器，沒有正確建立地面位置",
+  "faulty_action": "UNLOAD-TRUCK",
+  "component": ":effect",
+  "original_slot_1based": 2,
+  "original_line_1based": 46,
+  "original_assertion": "(at ?obj ?loc)",
+  "replacement_assertion": "(in ?obj ?loc)",
+  "operation": "replace",
+  "domain_sha256": "07f8139e777c52efd1983568acac3bcedad2590b027d98a55f3be8376a53873e",
+  "blind_id": "B-07f8139e777c",
+  "source_legacy_case": null,
+  "novelty_note": "新的 H 系列 Assertion 編輯位置或內容；未主張獨立語意難度"
+}

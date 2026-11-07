@@ -1,0 +1,17 @@
+{
+  "case_id": "H46",
+  "group_id": "G12",
+  "group_title": "地面位置與承載關係寫錯",
+  "description_zh_tw": "行駛後寫成卡車被地點承載，沒有正確記錄到站",
+  "faulty_action": "DRIVE-TRUCK",
+  "component": ":effect",
+  "original_slot_1based": 2,
+  "original_line_1based": 71,
+  "original_assertion": "(at ?truck ?loc-to)",
+  "replacement_assertion": "(in ?truck ?loc-to)",
+  "operation": "replace",
+  "domain_sha256": "e8885eeef3d496ff23dd51e34d712f5e431a9b487b96eec50d7d4894d90ac94b",
+  "blind_id": "B-e8885eeef3d4",
+  "source_legacy_case": null,
+  "novelty_note": "新的 H 系列 Assertion 編輯位置或內容；未主張獨立語意難度"
+}

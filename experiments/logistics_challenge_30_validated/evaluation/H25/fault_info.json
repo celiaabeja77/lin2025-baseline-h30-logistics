@@ -1,0 +1,25 @@
+{
+  "case_id": "H25",
+  "group_id": "G5",
+  "group_title": "新狀態漏建立，後段才受阻",
+  "description_zh_tw": "卸貨漏記貨物地面位置",
+  "source_candidate_id": "H25",
+  "source_legacy_case": null,
+  "faulty_action": "UNLOAD-TRUCK",
+  "component": ":effect",
+  "original_slot_1based": 2,
+  "original_line_1based": 46,
+  "original_assertion": "(at ?obj ?loc)",
+  "replacement_assertion": null,
+  "domain_sha256": "6650e76b31e5cfe725d198bde8bc89a467b45b74b95921de7c3c65871fee6f05",
+  "blind_id": "B-6650e76b31e5",
+  "structural_checks": {
+    "single_assertion_edit": true,
+    "unchanged_declarations_parameters_and_other_assertions": true,
+    "undeclared_predicates_or_variables": false,
+    "duplicate_assertions": false,
+    "literal_count": 42,
+    "action_count": 6,
+    "predicate_count": 9
+  }
+}

@@ -1,0 +1,1002 @@
+{
+  "trace_id": "S2",
+  "domain": "H34",
+  "domain_path": "inputs/domains/H34/domain.pddl",
+  "domain_sha256": "0fc55941ba4966b947de31f66443ccc88cef259cbb2d789b8c92251078f74b4c",
+  "problem_id": "train_problem3",
+  "problem_path": "inputs/problems/train/problem3.pddl",
+  "problem_sha256": "691e0eba199ff0c4ee99655c2219e1230541869735f58a82bbe9c1546d0184ba",
+  "problem_origin": "unchanged_official_PDDLGym_Problem",
+  "official_source_path": "pddlgym/pddl/manylogistics/problem3.pddl",
+  "official_source_commit": "ab268e40ac7b2de8d060ec0c48c27003d1a62d62",
+  "plan_path": "plans/train_problem3.plan",
+  "plan_sha256": "59f6f833e5db8fe576e290b876d7be14f619794c32bc9803c22346c9e4d76fd8",
+  "plan_origin": "Fast Downward solved unchanged reference Domain and unchanged official Problem",
+  "planner_record": "planner/train_problem3.json",
+  "schema_version": 1,
+  "success_definition": "All actions execute AND every original official Problem goal is satisfied",
+  "execution_kind": "native_UP_SequentialSimulator",
+  "validator_engine": "sequential_plan_validator",
+  "validator_status": "VALID",
+  "validation_details": "status: VALID\nengine: sequential_plan_validator",
+  "planned_action_count": 6,
+  "executed_action_count": 6,
+  "sequence_completed": true,
+  "full_goal_reached": true,
+  "plan_accepted": true,
+  "success": true,
+  "first_rejected_step": null,
+  "first_rejected_action": null,
+  "failure_kind": null,
+  "problem_goals": [
+    "(at p0 l20)",
+    "(at p1 l10)",
+    "(at p2 l20)"
+  ],
+  "final_goal_results": [
+    {
+      "literal": "(at p0 l20)",
+      "satisfied": true
+    },
+    {
+      "literal": "(at p1 l10)",
+      "satisfied": true
+    },
+    {
+      "literal": "(at p2 l20)",
+      "satisfied": true
+    }
+  ],
+  "unmet_goals": [],
+  "initial_state": [
+    "(airplane a0)",
+    "(airplane a1)",
+    "(airplane a2)",
+    "(airplane a3)",
+    "(airplane a4)",
+    "(airplane a5)",
+    "(airplane a6)",
+    "(airplane a7)",
+    "(airplane a8)",
+    "(airport l00)",
+    "(airport l10)",
+    "(airport l20)",
+    "(at a0 l10)",
+    "(at a1 l20)",
+    "(at a2 l20)",
+    "(at a3 l00)",
+    "(at a4 l00)",
+    "(at a5 l20)",
+    "(at a6 l10)",
+    "(at a7 l20)",
+    "(at a8 l10)",
+    "(at p0 l00)",
+    "(at p1 l20)",
+    "(at p2 l20)",
+    "(at t0 l00)",
+    "(at t1 l10)",
+    "(at t2 l20)",
+    "(city c0)",
+    "(city c1)",
+    "(city c2)",
+    "(in-city l00 c0)",
+    "(in-city l10 c1)",
+    "(in-city l20 c2)",
+    "(location l00)",
+    "(location l10)",
+    "(location l20)",
+    "(obj p0)",
+    "(obj p1)",
+    "(obj p2)",
+    "(truck t0)",
+    "(truck t1)",
+    "(truck t2)"
+  ],
+  "final_state": [
+    "(airplane a0)",
+    "(airplane a1)",
+    "(airplane a2)",
+    "(airplane a3)",
+    "(airplane a4)",
+    "(airplane a5)",
+    "(airplane a6)",
+    "(airplane a7)",
+    "(airplane a8)",
+    "(airport l00)",
+    "(at a0 l10)",
+    "(at a1 l20)",
+    "(at a2 l20)",
+    "(at a3 l00)",
+    "(at a4 l20)",
+    "(at a5 l20)",
+    "(at a6 l10)",
+    "(at a7 l10)",
+    "(at a8 l10)",
+    "(at p0 l20)",
+    "(at p1 l10)",
+    "(at p2 l20)",
+    "(at t0 l00)",
+    "(at t1 l10)",
+    "(at t2 l20)",
+    "(city c0)",
+    "(city c1)",
+    "(city c2)",
+    "(in-city l00 c0)",
+    "(in-city l10 c1)",
+    "(in-city l20 c2)",
+    "(location l00)",
+    "(location l10)",
+    "(location l20)",
+    "(obj p0)",
+    "(obj p1)",
+    "(obj p2)",
+    "(truck t0)",
+    "(truck t1)",
+    "(truck t2)"
+  ],
+  "state_observation_policy": "All true initial facts plus all grounded effect targets in the full supplied plan; false facts omitted",
+  "attempted_action_coverage": [
+    "fly-airplane",
+    "load-airplane",
+    "unload-airplane"
+  ],
+  "executed_action_coverage": [
+    "fly-airplane",
+    "load-airplane",
+    "unload-airplane"
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "action": "(load-airplane p1 a7 l20)",
+      "action_name": "load-airplane",
+      "arguments": [
+        "p1",
+        "a7",
+        "l20"
+      ],
+      "attempted": true,
+      "applicable": true,
+      "executed": true,
+      "state_before": [
+        "(airplane a0)",
+        "(airplane a1)",
+        "(airplane a2)",
+        "(airplane a3)",
+        "(airplane a4)",
+        "(airplane a5)",
+        "(airplane a6)",
+        "(airplane a7)",
+        "(airplane a8)",
+        "(airport l00)",
+        "(airport l10)",
+        "(airport l20)",
+        "(at a0 l10)",
+        "(at a1 l20)",
+        "(at a2 l20)",
+        "(at a3 l00)",
+        "(at a4 l00)",
+        "(at a5 l20)",
+        "(at a6 l10)",
+        "(at a7 l20)",
+        "(at a8 l10)",
+        "(at p0 l00)",
+        "(at p1 l20)",
+        "(at p2 l20)",
+        "(at t0 l00)",
+        "(at t1 l10)",
+        "(at t2 l20)",
+        "(city c0)",
+        "(city c1)",
+        "(city c2)",
+        "(in-city l00 c0)",
+        "(in-city l10 c1)",
+        "(in-city l20 c2)",
+        "(location l00)",
+        "(location l10)",
+        "(location l20)",
+        "(obj p0)",
+        "(obj p1)",
+        "(obj p2)",
+        "(truck t0)",
+        "(truck t1)",
+        "(truck t2)"
+      ],
+      "state_after": [
+        "(airplane a0)",
+        "(airplane a1)",
+        "(airplane a2)",
+        "(airplane a3)",
+        "(airplane a4)",
+        "(airplane a5)",
+        "(airplane a6)",
+        "(airplane a7)",
+        "(airplane a8)",
+        "(airport l00)",
+        "(airport l10)",
+        "(airport l20)",
+        "(at a0 l10)",
+        "(at a1 l20)",
+        "(at a2 l20)",
+        "(at a3 l00)",
+        "(at a4 l00)",
+        "(at a5 l20)",
+        "(at a6 l10)",
+        "(at a7 l20)",
+        "(at a8 l10)",
+        "(at p0 l00)",
+        "(at p2 l20)",
+        "(at t0 l00)",
+        "(at t1 l10)",
+        "(at t2 l20)",
+        "(city c0)",
+        "(city c1)",
+        "(city c2)",
+        "(in p1 a7)",
+        "(in-city l00 c0)",
+        "(in-city l10 c1)",
+        "(in-city l20 c2)",
+        "(location l00)",
+        "(location l10)",
+        "(location l20)",
+        "(obj p0)",
+        "(obj p1)",
+        "(obj p2)",
+        "(truck t0)",
+        "(truck t1)",
+        "(truck t2)"
+      ],
+      "grounded_preconditions": [
+        "(obj p1)",
+        "(airplane a7)",
+        "(location l20)",
+        "(at p1 l20)",
+        "(at a7 l20)"
+      ],
+      "precondition_results": [
+        {
+          "literal": "(obj p1)",
+          "satisfied": true
+        },
+        {
+          "literal": "(airplane a7)",
+          "satisfied": true
+        },
+        {
+          "literal": "(location l20)",
+          "satisfied": true
+        },
+        {
+          "literal": "(at p1 l20)",
+          "satisfied": true
+        },
+        {
+          "literal": "(at a7 l20)",
+          "satisfied": true
+        }
+      ],
+      "unmet_preconditions": [],
+      "UP_unsatisfied_conditions": [],
+      "inapplicability_reason": null,
+      "grounded_effect_add_list": [
+        "(in p1 a7)"
+      ],
+      "grounded_effect_delete_list": [
+        "(at p1 l20)"
+      ],
+      "predicates_added": [
+        "(in p1 a7)"
+      ],
+      "predicates_removed": [
+        "(at p1 l20)"
+      ]
+    },
+    {
+      "step": 2,
+      "action": "(fly-airplane a7 l20 l10)",
+      "action_name": "fly-airplane",
+      "arguments": [
+        "a7",
+        "l20",
+        "l10"
+      ],
+      "attempted": true,
+      "applicable": true,
+      "executed": true,
+      "state_before": [
+        "(airplane a0)",
+        "(airplane a1)",
+        "(airplane a2)",
+        "(airplane a3)",
+        "(airplane a4)",
+        "(airplane a5)",
+        "(airplane a6)",
+        "(airplane a7)",
+        "(airplane a8)",
+        "(airport l00)",
+        "(airport l10)",
+        "(airport l20)",
+        "(at a0 l10)",
+        "(at a1 l20)",
+        "(at a2 l20)",
+        "(at a3 l00)",
+        "(at a4 l00)",
+        "(at a5 l20)",
+        "(at a6 l10)",
+        "(at a7 l20)",
+        "(at a8 l10)",
+        "(at p0 l00)",
+        "(at p2 l20)",
+        "(at t0 l00)",
+        "(at t1 l10)",
+        "(at t2 l20)",
+        "(city c0)",
+        "(city c1)",
+        "(city c2)",
+        "(in p1 a7)",
+        "(in-city l00 c0)",
+        "(in-city l10 c1)",
+        "(in-city l20 c2)",
+        "(location l00)",
+        "(location l10)",
+        "(location l20)",
+        "(obj p0)",
+        "(obj p1)",
+        "(obj p2)",
+        "(truck t0)",
+        "(truck t1)",
+        "(truck t2)"
+      ],
+      "state_after": [
+        "(airplane a0)",
+        "(airplane a1)",
+        "(airplane a2)",
+        "(airplane a3)",
+        "(airplane a4)",
+        "(airplane a5)",
+        "(airplane a6)",
+        "(airplane a7)",
+        "(airplane a8)",
+        "(airport l00)",
+        "(airport l20)",
+        "(at a0 l10)",
+        "(at a1 l20)",
+        "(at a2 l20)",
+        "(at a3 l00)",
+        "(at a4 l00)",
+        "(at a5 l20)",
+        "(at a6 l10)",
+        "(at a7 l10)",
+        "(at a8 l10)",
+        "(at p0 l00)",
+        "(at p2 l20)",
+        "(at t0 l00)",
+        "(at t1 l10)",
+        "(at t2 l20)",
+        "(city c0)",
+        "(city c1)",
+        "(city c2)",
+        "(in p1 a7)",
+        "(in-city l00 c0)",
+        "(in-city l10 c1)",
+        "(in-city l20 c2)",
+        "(location l00)",
+        "(location l10)",
+        "(location l20)",
+        "(obj p0)",
+        "(obj p1)",
+        "(obj p2)",
+        "(truck t0)",
+        "(truck t1)",
+        "(truck t2)"
+      ],
+      "grounded_preconditions": [
+        "(airplane a7)",
+        "(airport l20)",
+        "(airport l10)",
+        "(at a7 l20)"
+      ],
+      "precondition_results": [
+        {
+          "literal": "(airplane a7)",
+          "satisfied": true
+        },
+        {
+          "literal": "(airport l20)",
+          "satisfied": true
+        },
+        {
+          "literal": "(airport l10)",
+          "satisfied": true
+        },
+        {
+          "literal": "(at a7 l20)",
+          "satisfied": true
+        }
+      ],
+      "unmet_preconditions": [],
+      "UP_unsatisfied_conditions": [],
+      "inapplicability_reason": null,
+      "grounded_effect_add_list": [
+        "(at a7 l10)"
+      ],
+      "grounded_effect_delete_list": [
+        "(airport l10)",
+        "(at a7 l20)"
+      ],
+      "predicates_added": [
+        "(at a7 l10)"
+      ],
+      "predicates_removed": [
+        "(airport l10)",
+        "(at a7 l20)"
+      ]
+    },
+    {
+      "step": 3,
+      "action": "(unload-airplane p1 a7 l10)",
+      "action_name": "unload-airplane",
+      "arguments": [
+        "p1",
+        "a7",
+        "l10"
+      ],
+      "attempted": true,
+      "applicable": true,
+      "executed": true,
+      "state_before": [
+        "(airplane a0)",
+        "(airplane a1)",
+        "(airplane a2)",
+        "(airplane a3)",
+        "(airplane a4)",
+        "(airplane a5)",
+        "(airplane a6)",
+        "(airplane a7)",
+        "(airplane a8)",
+        "(airport l00)",
+        "(airport l20)",
+        "(at a0 l10)",
+        "(at a1 l20)",
+        "(at a2 l20)",
+        "(at a3 l00)",
+        "(at a4 l00)",
+        "(at a5 l20)",
+        "(at a6 l10)",
+        "(at a7 l10)",
+        "(at a8 l10)",
+        "(at p0 l00)",
+        "(at p2 l20)",
+        "(at t0 l00)",
+        "(at t1 l10)",
+        "(at t2 l20)",
+        "(city c0)",
+        "(city c1)",
+        "(city c2)",
+        "(in p1 a7)",
+        "(in-city l00 c0)",
+        "(in-city l10 c1)",
+        "(in-city l20 c2)",
+        "(location l00)",
+        "(location l10)",
+        "(location l20)",
+        "(obj p0)",
+        "(obj p1)",
+        "(obj p2)",
+        "(truck t0)",
+        "(truck t1)",
+        "(truck t2)"
+      ],
+      "state_after": [
+        "(airplane a0)",
+        "(airplane a1)",
+        "(airplane a2)",
+        "(airplane a3)",
+        "(airplane a4)",
+        "(airplane a5)",
+        "(airplane a6)",
+        "(airplane a7)",
+        "(airplane a8)",
+        "(airport l00)",
+        "(airport l20)",
+        "(at a0 l10)",
+        "(at a1 l20)",
+        "(at a2 l20)",
+        "(at a3 l00)",
+        "(at a4 l00)",
+        "(at a5 l20)",
+        "(at a6 l10)",
+        "(at a7 l10)",
+        "(at a8 l10)",
+        "(at p0 l00)",
+        "(at p1 l10)",
+        "(at p2 l20)",
+        "(at t0 l00)",
+        "(at t1 l10)",
+        "(at t2 l20)",
+        "(city c0)",
+        "(city c1)",
+        "(city c2)",
+        "(in-city l00 c0)",
+        "(in-city l10 c1)",
+        "(in-city l20 c2)",
+        "(location l00)",
+        "(location l10)",
+        "(location l20)",
+        "(obj p0)",
+        "(obj p1)",
+        "(obj p2)",
+        "(truck t0)",
+        "(truck t1)",
+        "(truck t2)"
+      ],
+      "grounded_preconditions": [
+        "(obj p1)",
+        "(airplane a7)",
+        "(location l10)",
+        "(in p1 a7)",
+        "(at a7 l10)"
+      ],
+      "precondition_results": [
+        {
+          "literal": "(obj p1)",
+          "satisfied": true
+        },
+        {
+          "literal": "(airplane a7)",
+          "satisfied": true
+        },
+        {
+          "literal": "(location l10)",
+          "satisfied": true
+        },
+        {
+          "literal": "(in p1 a7)",
+          "satisfied": true
+        },
+        {
+          "literal": "(at a7 l10)",
+          "satisfied": true
+        }
+      ],
+      "unmet_preconditions": [],
+      "UP_unsatisfied_conditions": [],
+      "inapplicability_reason": null,
+      "grounded_effect_add_list": [
+        "(at p1 l10)"
+      ],
+      "grounded_effect_delete_list": [
+        "(in p1 a7)"
+      ],
+      "predicates_added": [
+        "(at p1 l10)"
+      ],
+      "predicates_removed": [
+        "(in p1 a7)"
+      ]
+    },
+    {
+      "step": 4,
+      "action": "(load-airplane p0 a4 l00)",
+      "action_name": "load-airplane",
+      "arguments": [
+        "p0",
+        "a4",
+        "l00"
+      ],
+      "attempted": true,
+      "applicable": true,
+      "executed": true,
+      "state_before": [
+        "(airplane a0)",
+        "(airplane a1)",
+        "(airplane a2)",
+        "(airplane a3)",
+        "(airplane a4)",
+        "(airplane a5)",
+        "(airplane a6)",
+        "(airplane a7)",
+        "(airplane a8)",
+        "(airport l00)",
+        "(airport l20)",
+        "(at a0 l10)",
+        "(at a1 l20)",
+        "(at a2 l20)",
+        "(at a3 l00)",
+        "(at a4 l00)",
+        "(at a5 l20)",
+        "(at a6 l10)",
+        "(at a7 l10)",
+        "(at a8 l10)",
+        "(at p0 l00)",
+        "(at p1 l10)",
+        "(at p2 l20)",
+        "(at t0 l00)",
+        "(at t1 l10)",
+        "(at t2 l20)",
+        "(city c0)",
+        "(city c1)",
+        "(city c2)",
+        "(in-city l00 c0)",
+        "(in-city l10 c1)",
+        "(in-city l20 c2)",
+        "(location l00)",
+        "(location l10)",
+        "(location l20)",
+        "(obj p0)",
+        "(obj p1)",
+        "(obj p2)",
+        "(truck t0)",
+        "(truck t1)",
+        "(truck t2)"
+      ],
+      "state_after": [
+        "(airplane a0)",
+        "(airplane a1)",
+        "(airplane a2)",
+        "(airplane a3)",
+        "(airplane a4)",
+        "(airplane a5)",
+        "(airplane a6)",
+        "(airplane a7)",
+        "(airplane a8)",
+        "(airport l00)",
+        "(airport l20)",
+        "(at a0 l10)",
+        "(at a1 l20)",
+        "(at a2 l20)",
+        "(at a3 l00)",
+        "(at a4 l00)",
+        "(at a5 l20)",
+        "(at a6 l10)",
+        "(at a7 l10)",
+        "(at a8 l10)",
+        "(at p1 l10)",
+        "(at p2 l20)",
+        "(at t0 l00)",
+        "(at t1 l10)",
+        "(at t2 l20)",
+        "(city c0)",
+        "(city c1)",
+        "(city c2)",
+        "(in p0 a4)",
+        "(in-city l00 c0)",
+        "(in-city l10 c1)",
+        "(in-city l20 c2)",
+        "(location l00)",
+        "(location l10)",
+        "(location l20)",
+        "(obj p0)",
+        "(obj p1)",
+        "(obj p2)",
+        "(truck t0)",
+        "(truck t1)",
+        "(truck t2)"
+      ],
+      "grounded_preconditions": [
+        "(obj p0)",
+        "(airplane a4)",
+        "(location l00)",
+        "(at p0 l00)",
+        "(at a4 l00)"
+      ],
+      "precondition_results": [
+        {
+          "literal": "(obj p0)",
+          "satisfied": true
+        },
+        {
+          "literal": "(airplane a4)",
+          "satisfied": true
+        },
+        {
+          "literal": "(location l00)",
+          "satisfied": true
+        },
+        {
+          "literal": "(at p0 l00)",
+          "satisfied": true
+        },
+        {
+          "literal": "(at a4 l00)",
+          "satisfied": true
+        }
+      ],
+      "unmet_preconditions": [],
+      "UP_unsatisfied_conditions": [],
+      "inapplicability_reason": null,
+      "grounded_effect_add_list": [
+        "(in p0 a4)"
+      ],
+      "grounded_effect_delete_list": [
+        "(at p0 l00)"
+      ],
+      "predicates_added": [
+        "(in p0 a4)"
+      ],
+      "predicates_removed": [
+        "(at p0 l00)"
+      ]
+    },
+    {
+      "step": 5,
+      "action": "(fly-airplane a4 l00 l20)",
+      "action_name": "fly-airplane",
+      "arguments": [
+        "a4",
+        "l00",
+        "l20"
+      ],
+      "attempted": true,
+      "applicable": true,
+      "executed": true,
+      "state_before": [
+        "(airplane a0)",
+        "(airplane a1)",
+        "(airplane a2)",
+        "(airplane a3)",
+        "(airplane a4)",
+        "(airplane a5)",
+        "(airplane a6)",
+        "(airplane a7)",
+        "(airplane a8)",
+        "(airport l00)",
+        "(airport l20)",
+        "(at a0 l10)",
+        "(at a1 l20)",
+        "(at a2 l20)",
+        "(at a3 l00)",
+        "(at a4 l00)",
+        "(at a5 l20)",
+        "(at a6 l10)",
+        "(at a7 l10)",
+        "(at a8 l10)",
+        "(at p1 l10)",
+        "(at p2 l20)",
+        "(at t0 l00)",
+        "(at t1 l10)",
+        "(at t2 l20)",
+        "(city c0)",
+        "(city c1)",
+        "(city c2)",
+        "(in p0 a4)",
+        "(in-city l00 c0)",
+        "(in-city l10 c1)",
+        "(in-city l20 c2)",
+        "(location l00)",
+        "(location l10)",
+        "(location l20)",
+        "(obj p0)",
+        "(obj p1)",
+        "(obj p2)",
+        "(truck t0)",
+        "(truck t1)",
+        "(truck t2)"
+      ],
+      "state_after": [
+        "(airplane a0)",
+        "(airplane a1)",
+        "(airplane a2)",
+        "(airplane a3)",
+        "(airplane a4)",
+        "(airplane a5)",
+        "(airplane a6)",
+        "(airplane a7)",
+        "(airplane a8)",
+        "(airport l00)",
+        "(at a0 l10)",
+        "(at a1 l20)",
+        "(at a2 l20)",
+        "(at a3 l00)",
+        "(at a4 l20)",
+        "(at a5 l20)",
+        "(at a6 l10)",
+        "(at a7 l10)",
+        "(at a8 l10)",
+        "(at p1 l10)",
+        "(at p2 l20)",
+        "(at t0 l00)",
+        "(at t1 l10)",
+        "(at t2 l20)",
+        "(city c0)",
+        "(city c1)",
+        "(city c2)",
+        "(in p0 a4)",
+        "(in-city l00 c0)",
+        "(in-city l10 c1)",
+        "(in-city l20 c2)",
+        "(location l00)",
+        "(location l10)",
+        "(location l20)",
+        "(obj p0)",
+        "(obj p1)",
+        "(obj p2)",
+        "(truck t0)",
+        "(truck t1)",
+        "(truck t2)"
+      ],
+      "grounded_preconditions": [
+        "(airplane a4)",
+        "(airport l00)",
+        "(airport l20)",
+        "(at a4 l00)"
+      ],
+      "precondition_results": [
+        {
+          "literal": "(airplane a4)",
+          "satisfied": true
+        },
+        {
+          "literal": "(airport l00)",
+          "satisfied": true
+        },
+        {
+          "literal": "(airport l20)",
+          "satisfied": true
+        },
+        {
+          "literal": "(at a4 l00)",
+          "satisfied": true
+        }
+      ],
+      "unmet_preconditions": [],
+      "UP_unsatisfied_conditions": [],
+      "inapplicability_reason": null,
+      "grounded_effect_add_list": [
+        "(at a4 l20)"
+      ],
+      "grounded_effect_delete_list": [
+        "(airport l20)",
+        "(at a4 l00)"
+      ],
+      "predicates_added": [
+        "(at a4 l20)"
+      ],
+      "predicates_removed": [
+        "(airport l20)",
+        "(at a4 l00)"
+      ]
+    },
+    {
+      "step": 6,
+      "action": "(unload-airplane p0 a4 l20)",
+      "action_name": "unload-airplane",
+      "arguments": [
+        "p0",
+        "a4",
+        "l20"
+      ],
+      "attempted": true,
+      "applicable": true,
+      "executed": true,
+      "state_before": [
+        "(airplane a0)",
+        "(airplane a1)",
+        "(airplane a2)",
+        "(airplane a3)",
+        "(airplane a4)",
+        "(airplane a5)",
+        "(airplane a6)",
+        "(airplane a7)",
+        "(airplane a8)",
+        "(airport l00)",
+        "(at a0 l10)",
+        "(at a1 l20)",
+        "(at a2 l20)",
+        "(at a3 l00)",
+        "(at a4 l20)",
+        "(at a5 l20)",
+        "(at a6 l10)",
+        "(at a7 l10)",
+        "(at a8 l10)",
+        "(at p1 l10)",
+        "(at p2 l20)",
+        "(at t0 l00)",
+        "(at t1 l10)",
+        "(at t2 l20)",
+        "(city c0)",
+        "(city c1)",
+        "(city c2)",
+        "(in p0 a4)",
+        "(in-city l00 c0)",
+        "(in-city l10 c1)",
+        "(in-city l20 c2)",
+        "(location l00)",
+        "(location l10)",
+        "(location l20)",
+        "(obj p0)",
+        "(obj p1)",
+        "(obj p2)",
+        "(truck t0)",
+        "(truck t1)",
+        "(truck t2)"
+      ],
+      "state_after": [
+        "(airplane a0)",
+        "(airplane a1)",
+        "(airplane a2)",
+        "(airplane a3)",
+        "(airplane a4)",
+        "(airplane a5)",
+        "(airplane a6)",
+        "(airplane a7)",
+        "(airplane a8)",
+        "(airport l00)",
+        "(at a0 l10)",
+        "(at a1 l20)",
+        "(at a2 l20)",
+        "(at a3 l00)",
+        "(at a4 l20)",
+        "(at a5 l20)",
+        "(at a6 l10)",
+        "(at a7 l10)",
+        "(at a8 l10)",
+        "(at p0 l20)",
+        "(at p1 l10)",
+        "(at p2 l20)",
+        "(at t0 l00)",
+        "(at t1 l10)",
+        "(at t2 l20)",
+        "(city c0)",
+        "(city c1)",
+        "(city c2)",
+        "(in-city l00 c0)",
+        "(in-city l10 c1)",
+        "(in-city l20 c2)",
+        "(location l00)",
+        "(location l10)",
+        "(location l20)",
+        "(obj p0)",
+        "(obj p1)",
+        "(obj p2)",
+        "(truck t0)",
+        "(truck t1)",
+        "(truck t2)"
+      ],
+      "grounded_preconditions": [
+        "(obj p0)",
+        "(airplane a4)",
+        "(location l20)",
+        "(in p0 a4)",
+        "(at a4 l20)"
+      ],
+      "precondition_results": [
+        {
+          "literal": "(obj p0)",
+          "satisfied": true
+        },
+        {
+          "literal": "(airplane a4)",
+          "satisfied": true
+        },
+        {
+          "literal": "(location l20)",
+          "satisfied": true
+        },
+        {
+          "literal": "(in p0 a4)",
+          "satisfied": true
+        },
+        {
+          "literal": "(at a4 l20)",
+          "satisfied": true
+        }
+      ],
+      "unmet_preconditions": [],
+      "UP_unsatisfied_conditions": [],
+      "inapplicability_reason": null,
+      "grounded_effect_add_list": [
+        "(at p0 l20)"
+      ],
+      "grounded_effect_delete_list": [
+        "(in p0 a4)"
+      ],
+      "predicates_added": [
+        "(at p0 l20)"
+      ],
+      "predicates_removed": [
+        "(in p0 a4)"
+      ]
+    }
+  ]
+}

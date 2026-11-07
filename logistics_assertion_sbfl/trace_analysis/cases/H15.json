@@ -1,0 +1,636 @@
+{
+  "summary": {
+    "case_id": "H15",
+    "status": "OK",
+    "coverage_policy": "precondition_checked_effect_applied",
+    "evaluation_status": "rankable",
+    "group_id": "G3",
+    "group_title": "貨物來源與承載身分混淆",
+    "operation": "replace",
+    "num_assertions": "43",
+    "num_traces": "4",
+    "num_success_traces": "2",
+    "num_failure_traces": "2",
+    "ground_truth_in_candidate_set": "true",
+    "ground_truth_assertion": "LOAD-TRUCK.precondition[5]",
+    "reference_fault_slot": "LOAD-TRUCK.precondition[5]",
+    "original_assertion": "(at ?obj ?loc)",
+    "replacement_assertion": "(in ?obj ?truck)",
+    "ef": "2",
+    "ep": "0",
+    "total_failure_traces": "2",
+    "ground_truth_score": "1.0",
+    "best_rank": "1",
+    "worst_rank": "5",
+    "average_rank": "3.0",
+    "tie_group_size": "5",
+    "strict_top1": "false",
+    "strict_top3": "false",
+    "strict_top5": "true",
+    "tie_aware_top1": "true",
+    "tie_aware_top3": "true",
+    "tie_aware_top5": "true",
+    "same_action_coverage_identical": "false",
+    "same_action_ef_ep_identical": "false",
+    "same_action_score_identical": "false",
+    "notes": "Binary assertion-touch SBFL + Ochiai; exact-score ties retained. Gold is evaluation only."
+  },
+  "gold_metadata_evaluation_only": {
+    "case_id": "H15",
+    "group_id": "G3",
+    "group_title": "貨物來源與承載身分混淆",
+    "description_zh_tw": "卡車裝貨把地面來源錯寫成已在車內",
+    "source_candidate_id": null,
+    "source_legacy_case": null,
+    "faulty_action": "LOAD-TRUCK",
+    "component": ":precondition",
+    "original_slot_1based": 5,
+    "original_line_1based": 22,
+    "original_assertion": "(at ?obj ?loc)",
+    "replacement_assertion": "(in ?obj ?truck)",
+    "domain_sha256": "2ffaa87ffba710754734e425a0036dd6642cc5fec5827737370615e138de9ec1",
+    "blind_id": "B-2ffaa87ffba7",
+    "structural_checks": {
+      "single_assertion_edit": true,
+      "unchanged_declarations_parameters_and_other_assertions": true,
+      "undeclared_predicates_or_variables": false,
+      "duplicate_assertions": false,
+      "literal_count": 43,
+      "action_count": 6,
+      "predicate_count": 9
+    }
+  },
+  "trace_order": [
+    "S1",
+    "S2",
+    "F1",
+    "F2"
+  ],
+  "coverage_groups": [
+    {
+      "vector": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "num_assertions": 5,
+      "assertion_ids": [
+        "LOAD-TRUCK.precondition[1]",
+        "LOAD-TRUCK.precondition[2]",
+        "LOAD-TRUCK.precondition[3]",
+        "LOAD-TRUCK.precondition[4]",
+        "LOAD-TRUCK.precondition[5]"
+      ],
+      "scores": [
+        1.0
+      ]
+    },
+    {
+      "vector": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "num_assertions": 9,
+      "assertion_ids": [
+        "LOAD-TRUCK.effect[1]",
+        "LOAD-TRUCK.effect[2]",
+        "UNLOAD-TRUCK.precondition[1]",
+        "UNLOAD-TRUCK.precondition[2]",
+        "UNLOAD-TRUCK.precondition[3]",
+        "UNLOAD-TRUCK.precondition[4]",
+        "UNLOAD-TRUCK.precondition[5]",
+        "UNLOAD-TRUCK.effect[1]",
+        "UNLOAD-TRUCK.effect[2]"
+      ],
+      "scores": [
+        0.0
+      ]
+    },
+    {
+      "vector": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "num_assertions": 20,
+      "assertion_ids": [
+        "LOAD-AIRPLANE.precondition[1]",
+        "LOAD-AIRPLANE.precondition[2]",
+        "LOAD-AIRPLANE.precondition[3]",
+        "LOAD-AIRPLANE.precondition[4]",
+        "LOAD-AIRPLANE.precondition[5]",
+        "LOAD-AIRPLANE.effect[1]",
+        "LOAD-AIRPLANE.effect[2]",
+        "UNLOAD-AIRPLANE.precondition[1]",
+        "UNLOAD-AIRPLANE.precondition[2]",
+        "UNLOAD-AIRPLANE.precondition[3]",
+        "UNLOAD-AIRPLANE.precondition[4]",
+        "UNLOAD-AIRPLANE.precondition[5]",
+        "UNLOAD-AIRPLANE.effect[1]",
+        "UNLOAD-AIRPLANE.effect[2]",
+        "FLY-AIRPLANE.precondition[1]",
+        "FLY-AIRPLANE.precondition[2]",
+        "FLY-AIRPLANE.precondition[3]",
+        "FLY-AIRPLANE.precondition[4]",
+        "FLY-AIRPLANE.effect[1]",
+        "FLY-AIRPLANE.effect[2]"
+      ],
+      "scores": [
+        0.4082482904638631
+      ]
+    },
+    {
+      "vector": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "num_assertions": 9,
+      "assertion_ids": [
+        "DRIVE-TRUCK.precondition[1]",
+        "DRIVE-TRUCK.precondition[2]",
+        "DRIVE-TRUCK.precondition[3]",
+        "DRIVE-TRUCK.precondition[4]",
+        "DRIVE-TRUCK.precondition[5]",
+        "DRIVE-TRUCK.precondition[6]",
+        "DRIVE-TRUCK.precondition[7]",
+        "DRIVE-TRUCK.effect[1]",
+        "DRIVE-TRUCK.effect[2]"
+      ],
+      "scores": [
+        0.7071067811865475
+      ]
+    }
+  ],
+  "traces": {
+    "S1": {
+      "trace_id": "S1",
+      "problem_id": "train_problem0",
+      "success": true,
+      "goals": [
+        "(at p0 l20)",
+        "(at p1 l00)"
+      ],
+      "planned_steps": 7,
+      "attempted_steps": 7,
+      "executed_steps": 7,
+      "first_rejected_step": null,
+      "first_rejected_action": null,
+      "unmet_preconditions_at_rejection": [],
+      "unmet_goals": [],
+      "failure_kind": null,
+      "first_state_difference_from_reference": null,
+      "fault_action_events": [],
+      "gold_guided_dependency_matches": [],
+      "action_counts": {
+        "LOAD-AIRPLANE": {
+          "attempted": 2,
+          "executed": 2
+        },
+        "FLY-AIRPLANE": {
+          "attempted": 3,
+          "executed": 3
+        },
+        "UNLOAD-AIRPLANE": {
+          "attempted": 2,
+          "executed": 2
+        }
+      },
+      "execution_sequence": [
+        {
+          "step": 1,
+          "action": "(load-airplane p1 a1 l10)",
+          "executed": true,
+          "unmet_preconditions": []
+        },
+        {
+          "step": 2,
+          "action": "(fly-airplane a1 l10 l00)",
+          "executed": true,
+          "unmet_preconditions": []
+        },
+        {
+          "step": 3,
+          "action": "(unload-airplane p1 a1 l00)",
+          "executed": true,
+          "unmet_preconditions": []
+        },
+        {
+          "step": 4,
+          "action": "(fly-airplane a4 l20 l10)",
+          "executed": true,
+          "unmet_preconditions": []
+        },
+        {
+          "step": 5,
+          "action": "(load-airplane p0 a4 l10)",
+          "executed": true,
+          "unmet_preconditions": []
+        },
+        {
+          "step": 6,
+          "action": "(fly-airplane a4 l10 l20)",
+          "executed": true,
+          "unmet_preconditions": []
+        },
+        {
+          "step": 7,
+          "action": "(unload-airplane p0 a4 l20)",
+          "executed": true,
+          "unmet_preconditions": []
+        }
+      ],
+      "source_trace": "traces/official_2success_2failure/by_domain/H15/S1.trace.json",
+      "num_covered_assertions": 20,
+      "covered_assertion_ids": [
+        "LOAD-AIRPLANE.precondition[1]",
+        "LOAD-AIRPLANE.precondition[2]",
+        "LOAD-AIRPLANE.precondition[3]",
+        "LOAD-AIRPLANE.precondition[4]",
+        "LOAD-AIRPLANE.precondition[5]",
+        "LOAD-AIRPLANE.effect[1]",
+        "LOAD-AIRPLANE.effect[2]",
+        "UNLOAD-AIRPLANE.precondition[1]",
+        "UNLOAD-AIRPLANE.precondition[2]",
+        "UNLOAD-AIRPLANE.precondition[3]",
+        "UNLOAD-AIRPLANE.precondition[4]",
+        "UNLOAD-AIRPLANE.precondition[5]",
+        "UNLOAD-AIRPLANE.effect[1]",
+        "UNLOAD-AIRPLANE.effect[2]",
+        "FLY-AIRPLANE.precondition[1]",
+        "FLY-AIRPLANE.precondition[2]",
+        "FLY-AIRPLANE.precondition[3]",
+        "FLY-AIRPLANE.precondition[4]",
+        "FLY-AIRPLANE.effect[1]",
+        "FLY-AIRPLANE.effect[2]"
+      ]
+    },
+    "S2": {
+      "trace_id": "S2",
+      "problem_id": "train_problem1",
+      "success": true,
+      "goals": [
+        "(at p0 l40)",
+        "(at p1 l50)",
+        "(at p2 l50)",
+        "(at p3 l50)",
+        "(at p4 l10)"
+      ],
+      "planned_steps": 14,
+      "attempted_steps": 14,
+      "executed_steps": 14,
+      "first_rejected_step": null,
+      "first_rejected_action": null,
+      "unmet_preconditions_at_rejection": [],
+      "unmet_goals": [],
+      "failure_kind": null,
+      "first_state_difference_from_reference": null,
+      "fault_action_events": [],
+      "gold_guided_dependency_matches": [],
+      "action_counts": {
+        "LOAD-AIRPLANE": {
+          "attempted": 5,
+          "executed": 5
+        },
+        "FLY-AIRPLANE": {
+          "attempted": 4,
+          "executed": 4
+        },
+        "UNLOAD-AIRPLANE": {
+          "attempted": 5,
+          "executed": 5
+        }
+      },
+      "execution_sequence": [
+        {
+          "step": 1,
+          "action": "(load-airplane p4 a5 l20)",
+          "executed": true,
+          "unmet_preconditions": []
+        },
+        {
+          "step": 2,
+          "action": "(fly-airplane a5 l20 l10)",
+          "executed": true,
+          "unmet_preconditions": []
+        },
+        {
+          "step": 3,
+          "action": "(unload-airplane p4 a5 l10)",
+          "executed": true,
+          "unmet_preconditions": []
+        },
+        {
+          "step": 4,
+          "action": "(load-airplane p2 a5 l10)",
+          "executed": true,
+          "unmet_preconditions": []
+        },
+        {
+          "step": 5,
+          "action": "(load-airplane p1 a5 l10)",
+          "executed": true,
+          "unmet_preconditions": []
+        },
+        {
+          "step": 6,
+          "action": "(fly-airplane a5 l10 l50)",
+          "executed": true,
+          "unmet_preconditions": []
+        },
+        {
+          "step": 7,
+          "action": "(unload-airplane p2 a5 l50)",
+          "executed": true,
+          "unmet_preconditions": []
+        },
+        {
+          "step": 8,
+          "action": "(unload-airplane p1 a5 l50)",
+          "executed": true,
+          "unmet_preconditions": []
+        },
+        {
+          "step": 9,
+          "action": "(load-airplane p3 a3 l30)",
+          "executed": true,
+          "unmet_preconditions": []
+        },
+        {
+          "step": 10,
+          "action": "(fly-airplane a3 l30 l50)",
+          "executed": true,
+          "unmet_preconditions": []
+        },
+        {
+          "step": 11,
+          "action": "(unload-airplane p3 a3 l50)",
+          "executed": true,
+          "unmet_preconditions": []
+        },
+        {
+          "step": 12,
+          "action": "(load-airplane p0 a2 l30)",
+          "executed": true,
+          "unmet_preconditions": []
+        },
+        {
+          "step": 13,
+          "action": "(fly-airplane a2 l30 l40)",
+          "executed": true,
+          "unmet_preconditions": []
+        },
+        {
+          "step": 14,
+          "action": "(unload-airplane p0 a2 l40)",
+          "executed": true,
+          "unmet_preconditions": []
+        }
+      ],
+      "source_trace": "traces/official_2success_2failure/by_domain/H15/S2.trace.json",
+      "num_covered_assertions": 20,
+      "covered_assertion_ids": [
+        "LOAD-AIRPLANE.precondition[1]",
+        "LOAD-AIRPLANE.precondition[2]",
+        "LOAD-AIRPLANE.precondition[3]",
+        "LOAD-AIRPLANE.precondition[4]",
+        "LOAD-AIRPLANE.precondition[5]",
+        "LOAD-AIRPLANE.effect[1]",
+        "LOAD-AIRPLANE.effect[2]",
+        "UNLOAD-AIRPLANE.precondition[1]",
+        "UNLOAD-AIRPLANE.precondition[2]",
+        "UNLOAD-AIRPLANE.precondition[3]",
+        "UNLOAD-AIRPLANE.precondition[4]",
+        "UNLOAD-AIRPLANE.precondition[5]",
+        "UNLOAD-AIRPLANE.effect[1]",
+        "UNLOAD-AIRPLANE.effect[2]",
+        "FLY-AIRPLANE.precondition[1]",
+        "FLY-AIRPLANE.precondition[2]",
+        "FLY-AIRPLANE.precondition[3]",
+        "FLY-AIRPLANE.precondition[4]",
+        "FLY-AIRPLANE.effect[1]",
+        "FLY-AIRPLANE.effect[2]"
+      ]
+    },
+    "F1": {
+      "trace_id": "F1",
+      "problem_id": "train_problem2",
+      "success": false,
+      "goals": [
+        "(at p0 l11)",
+        "(at p1 l00)"
+      ],
+      "planned_steps": 6,
+      "attempted_steps": 4,
+      "executed_steps": 3,
+      "first_rejected_step": 4,
+      "first_rejected_action": "(load-truck p0 t1 l10)",
+      "unmet_preconditions_at_rejection": [
+        "(in p0 t1)"
+      ],
+      "unmet_goals": [
+        "(at p0 l11)"
+      ],
+      "failure_kind": "action_not_applicable",
+      "first_state_difference_from_reference": 4,
+      "fault_action_events": [
+        {
+          "step": 4,
+          "action": "(load-truck p0 t1 l10)",
+          "executed": false,
+          "original_grounded_literal": "(at p0 l10)",
+          "replacement_grounded_literal": "(in p0 t1)",
+          "checked_precondition_truth": false,
+          "actual_predicates_added": [],
+          "actual_predicates_removed": []
+        }
+      ],
+      "gold_guided_dependency_matches": [
+        {
+          "type": "changed_precondition_rejected",
+          "source_step": 4,
+          "source_action": "(load-truck p0 t1 l10)",
+          "required_literal": "(in p0 t1)",
+          "failure_step": 4,
+          "failure_action": "(load-truck p0 t1 l10)"
+        }
+      ],
+      "action_counts": {
+        "LOAD-AIRPLANE": {
+          "attempted": 1,
+          "executed": 1
+        },
+        "FLY-AIRPLANE": {
+          "attempted": 1,
+          "executed": 1
+        },
+        "UNLOAD-AIRPLANE": {
+          "attempted": 1,
+          "executed": 1
+        },
+        "LOAD-TRUCK": {
+          "attempted": 1,
+          "executed": 0
+        }
+      },
+      "execution_sequence": [
+        {
+          "step": 1,
+          "action": "(load-airplane p0 a5 l00)",
+          "executed": true,
+          "unmet_preconditions": []
+        },
+        {
+          "step": 2,
+          "action": "(fly-airplane a5 l00 l10)",
+          "executed": true,
+          "unmet_preconditions": []
+        },
+        {
+          "step": 3,
+          "action": "(unload-airplane p0 a5 l10)",
+          "executed": true,
+          "unmet_preconditions": []
+        },
+        {
+          "step": 4,
+          "action": "(load-truck p0 t1 l10)",
+          "executed": false,
+          "unmet_preconditions": [
+            "(in p0 t1)"
+          ]
+        }
+      ],
+      "source_trace": "traces/official_2success_2failure/by_domain/H15/F1.trace.json",
+      "num_covered_assertions": 25,
+      "covered_assertion_ids": [
+        "LOAD-TRUCK.precondition[1]",
+        "LOAD-TRUCK.precondition[2]",
+        "LOAD-TRUCK.precondition[3]",
+        "LOAD-TRUCK.precondition[4]",
+        "LOAD-TRUCK.precondition[5]",
+        "LOAD-AIRPLANE.precondition[1]",
+        "LOAD-AIRPLANE.precondition[2]",
+        "LOAD-AIRPLANE.precondition[3]",
+        "LOAD-AIRPLANE.precondition[4]",
+        "LOAD-AIRPLANE.precondition[5]",
+        "LOAD-AIRPLANE.effect[1]",
+        "LOAD-AIRPLANE.effect[2]",
+        "UNLOAD-AIRPLANE.precondition[1]",
+        "UNLOAD-AIRPLANE.precondition[2]",
+        "UNLOAD-AIRPLANE.precondition[3]",
+        "UNLOAD-AIRPLANE.precondition[4]",
+        "UNLOAD-AIRPLANE.precondition[5]",
+        "UNLOAD-AIRPLANE.effect[1]",
+        "UNLOAD-AIRPLANE.effect[2]",
+        "FLY-AIRPLANE.precondition[1]",
+        "FLY-AIRPLANE.precondition[2]",
+        "FLY-AIRPLANE.precondition[3]",
+        "FLY-AIRPLANE.precondition[4]",
+        "FLY-AIRPLANE.effect[1]",
+        "FLY-AIRPLANE.effect[2]"
+      ]
+    },
+    "F2": {
+      "trace_id": "F2",
+      "problem_id": "train_problem5",
+      "success": false,
+      "goals": [
+        "(at p0 l02)",
+        "(at p1 l12)",
+        "(at p2 l10)",
+        "(at p3 l01)",
+        "(at p4 l12)",
+        "(at p5 l00)"
+      ],
+      "planned_steps": 25,
+      "attempted_steps": 2,
+      "executed_steps": 1,
+      "first_rejected_step": 2,
+      "first_rejected_action": "(load-truck p2 t1 l11)",
+      "unmet_preconditions_at_rejection": [
+        "(in p2 t1)"
+      ],
+      "unmet_goals": [
+        "(at p0 l02)",
+        "(at p1 l12)",
+        "(at p2 l10)",
+        "(at p4 l12)",
+        "(at p5 l00)"
+      ],
+      "failure_kind": "action_not_applicable",
+      "first_state_difference_from_reference": 2,
+      "fault_action_events": [
+        {
+          "step": 2,
+          "action": "(load-truck p2 t1 l11)",
+          "executed": false,
+          "original_grounded_literal": "(at p2 l11)",
+          "replacement_grounded_literal": "(in p2 t1)",
+          "checked_precondition_truth": false,
+          "actual_predicates_added": [],
+          "actual_predicates_removed": []
+        }
+      ],
+      "gold_guided_dependency_matches": [
+        {
+          "type": "changed_precondition_rejected",
+          "source_step": 2,
+          "source_action": "(load-truck p2 t1 l11)",
+          "required_literal": "(in p2 t1)",
+          "failure_step": 2,
+          "failure_action": "(load-truck p2 t1 l11)"
+        }
+      ],
+      "action_counts": {
+        "DRIVE-TRUCK": {
+          "attempted": 1,
+          "executed": 1
+        },
+        "LOAD-TRUCK": {
+          "attempted": 1,
+          "executed": 0
+        }
+      },
+      "execution_sequence": [
+        {
+          "step": 1,
+          "action": "(drive-truck t1 l10 l11 c1)",
+          "executed": true,
+          "unmet_preconditions": []
+        },
+        {
+          "step": 2,
+          "action": "(load-truck p2 t1 l11)",
+          "executed": false,
+          "unmet_preconditions": [
+            "(in p2 t1)"
+          ]
+        }
+      ],
+      "source_trace": "traces/official_2success_2failure/by_domain/H15/F2.trace.json",
+      "num_covered_assertions": 14,
+      "covered_assertion_ids": [
+        "LOAD-TRUCK.precondition[1]",
+        "LOAD-TRUCK.precondition[2]",
+        "LOAD-TRUCK.precondition[3]",
+        "LOAD-TRUCK.precondition[4]",
+        "LOAD-TRUCK.precondition[5]",
+        "DRIVE-TRUCK.precondition[1]",
+        "DRIVE-TRUCK.precondition[2]",
+        "DRIVE-TRUCK.precondition[3]",
+        "DRIVE-TRUCK.precondition[4]",
+        "DRIVE-TRUCK.precondition[5]",
+        "DRIVE-TRUCK.precondition[6]",
+        "DRIVE-TRUCK.precondition[7]",
+        "DRIVE-TRUCK.effect[1]",
+        "DRIVE-TRUCK.effect[2]"
+      ]
+    }
+  }
+}

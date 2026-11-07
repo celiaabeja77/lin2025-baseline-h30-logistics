@@ -1,0 +1,6 @@
+case_id,assertion_id,action,section,component_type,literal,ef,ep,total_failure_traces,ochiai,best_rank,worst_rank,average_rank,tie_group_size,is_ground_truth
+H15,LOAD-TRUCK.precondition[1],LOAD-TRUCK,precondition,precondition_positive,(OBJ ?obj),2,0,2,1.0,1,5,3.0,5,false
+H15,LOAD-TRUCK.precondition[2],LOAD-TRUCK,precondition,precondition_positive,(TRUCK ?truck),2,0,2,1.0,1,5,3.0,5,false
+H15,LOAD-TRUCK.precondition[3],LOAD-TRUCK,precondition,precondition_positive,(LOCATION ?loc),2,0,2,1.0,1,5,3.0,5,false
+H15,LOAD-TRUCK.precondition[4],LOAD-TRUCK,precondition,precondition_positive,(at ?truck ?loc),2,0,2,1.0,1,5,3.0,5,false
+H15,LOAD-TRUCK.precondition[5],LOAD-TRUCK,precondition,precondition_positive,(in ?obj ?truck),2,0,2,1.0,1,5,3.0,5,true

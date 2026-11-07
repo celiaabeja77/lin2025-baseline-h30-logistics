@@ -1,0 +1,26 @@
+{
+  "case_id": "H29",
+  "group_id": "G7",
+  "group_title": "Effect 改到錯誤對象",
+  "requested_category": 5,
+  "description_zh_tw": "裝卡車誤清掉卡車位置，貨物舊位置反而保留",
+  "faulty_action": "LOAD-TRUCK",
+  "component": ":effect",
+  "original_slot_1based": 1,
+  "original_line_1based": 24,
+  "original_assertion": "(not (at ?obj ?loc))",
+  "replacement_assertion": "(not (at ?truck ?loc))",
+  "operation": "replace",
+  "domain_sha256": "ad8ce432e06a8f8eccbd655c765f4a3d3fb0590b33668d1663f4e2d3f0d028fb",
+  "blind_id": "B-ad8ce432e06a",
+  "structural_checks": {
+    "single_assertion_edit": true,
+    "unchanged_declarations_parameters_and_other_assertions": true,
+    "undeclared_predicates_or_variables": false,
+    "duplicate_assertions": false,
+    "action_count": 6,
+    "predicate_count": 9
+  },
+  "source_candidate_id": null,
+  "source_legacy_case": null
+}

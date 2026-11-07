@@ -1,0 +1,6 @@
+(load-airplane p0 a5 l00)
+(fly-airplane a5 l00 l10)
+(unload-airplane p0 a5 l10)
+(load-truck p0 t1 l10)
+(drive-truck t1 l10 l11 c1)
+(unload-truck p0 t1 l11)

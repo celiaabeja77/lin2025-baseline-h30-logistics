@@ -1,0 +1,17 @@
+{
+  "case_id": "H43",
+  "group_id": "G11",
+  "group_title": "一般地點被錯限縮為機場",
+  "description_zh_tw": "卡車只准從機場出發，從倉庫出發被拒絕",
+  "faulty_action": "DRIVE-TRUCK",
+  "component": ":precondition",
+  "original_slot_1based": 2,
+  "original_line_1based": 66,
+  "original_assertion": "(LOCATION ?loc-from)",
+  "replacement_assertion": "(AIRPORT ?loc-from)",
+  "operation": "replace",
+  "domain_sha256": "3fc47723eb64d2ac8afcda400787ae2a60f6afc991517e1a277d744684dabf49",
+  "blind_id": "B-3fc47723eb64",
+  "source_legacy_case": "L03",
+  "novelty_note": "與早期 L 系列相同設計；首次納入正式 H 系列"
+}

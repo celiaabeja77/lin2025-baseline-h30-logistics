@@ -1,0 +1,25 @@
+{
+  "case_id": "H21",
+  "group_id": "G5",
+  "group_title": "新狀態漏建立，後段才受阻",
+  "description_zh_tw": "裝貨漏記貨在卡車內",
+  "source_candidate_id": "H11",
+  "source_legacy_case": "L24",
+  "faulty_action": "LOAD-TRUCK",
+  "component": ":effect",
+  "original_slot_1based": 2,
+  "original_line_1based": 24,
+  "original_assertion": "(in ?obj ?truck)",
+  "replacement_assertion": null,
+  "domain_sha256": "9bfc214ad59a74cd8b99161c6fc1fd023a3877d6d54853b347510569f916fbdd",
+  "blind_id": "B-9bfc214ad59a",
+  "structural_checks": {
+    "single_assertion_edit": true,
+    "unchanged_declarations_parameters_and_other_assertions": true,
+    "undeclared_predicates_or_variables": false,
+    "duplicate_assertions": false,
+    "literal_count": 42,
+    "action_count": 6,
+    "predicate_count": 9
+  }
+}

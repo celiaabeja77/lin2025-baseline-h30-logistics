@@ -1,0 +1,5 @@
+trace_id,result,problem_origin,label_field,source_file
+F1,failure,unchanged_official_PDDLGym_Problem,success,traces/official_2success_2failure/by_domain/H15/F1.trace.json
+F2,failure,unchanged_official_PDDLGym_Problem,success,traces/official_2success_2failure/by_domain/H15/F2.trace.json
+S1,success,unchanged_official_PDDLGym_Problem,success,traces/official_2success_2failure/by_domain/H15/S1.trace.json
+S2,success,unchanged_official_PDDLGym_Problem,success,traces/official_2success_2failure/by_domain/H15/S2.trace.json

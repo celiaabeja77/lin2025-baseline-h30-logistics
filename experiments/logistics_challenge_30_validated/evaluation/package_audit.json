@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "date": "2026-10-22",
+  "retained_domains": 30,
+  "removed_domains": 25,
+  "native_mutant_traces_reused_byte_identically": 120,
+  "successes": 60,
+  "failures": 60,
+  "each_domain_has_two_success_two_failure": true,
+  "reference_full_traces": 10,
+  "saved_grounded_attempted_steps_rechecked": 988,
+  "removed_domains_absent_from_active_Domains_inputs_traces_and_case_manifests": true,
+  "plan_Problem_Goal_and_source_bytes_preserved": true,
+  "no_replanning_or_new_simulation": true,
+  "verification_scope": "File SHA-256 and replay of saved grounded preconditions/effects; source PDDL/parser audit retained by byte identity"
+}

@@ -1,0 +1,26 @@
+{
+  "case_id": "H32",
+  "group_id": "G8",
+  "group_title": "動作破壞共享地圖",
+  "requested_category": 6,
+  "description_zh_tw": "開車誤刪起點的城市歸屬，另一台車稍後受阻",
+  "faulty_action": "DRIVE-TRUCK",
+  "component": ":effect",
+  "original_slot_1based": 3,
+  "original_line_1based": 71,
+  "original_assertion": null,
+  "replacement_assertion": "(not (in-city ?loc-from ?city))",
+  "operation": "add",
+  "domain_sha256": "86fa77f20cc8743a9e02b470ac1509c7aa3c0754255d8ace445cdc956f5a3bad",
+  "blind_id": "B-86fa77f20cc8",
+  "structural_checks": {
+    "single_assertion_edit": true,
+    "unchanged_declarations_parameters_and_other_assertions": true,
+    "undeclared_predicates_or_variables": false,
+    "duplicate_assertions": false,
+    "action_count": 6,
+    "predicate_count": 9
+  },
+  "source_candidate_id": null,
+  "source_legacy_case": null
+}

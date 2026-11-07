@@ -1,0 +1,50 @@
+{
+  "domain": "H36",
+  "observed_success_pool": 20,
+  "observed_failure_pool": 30,
+  "selected_successes": 2,
+  "selected_failures": 2,
+  "missing_successes": 0,
+  "missing_failures": 0,
+  "traces": [
+    {
+      "trace_id": "S1",
+      "expected_success": true,
+      "problem_id": "train_problem0",
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "validator_status": "VALID",
+      "failure_kind": null
+    },
+    {
+      "trace_id": "S2",
+      "expected_success": true,
+      "problem_id": "train_problem1",
+      "sequence_completed": true,
+      "full_goal_reached": true,
+      "validator_status": "VALID",
+      "failure_kind": null
+    },
+    {
+      "trace_id": "F1",
+      "expected_success": false,
+      "problem_id": "train_problem2",
+      "sequence_completed": false,
+      "full_goal_reached": false,
+      "validator_status": "INVALID",
+      "failure_kind": "action_not_applicable"
+    },
+    {
+      "trace_id": "F2",
+      "expected_success": false,
+      "problem_id": "train_problem5",
+      "sequence_completed": false,
+      "full_goal_reached": false,
+      "validator_status": "INVALID",
+      "failure_kind": "action_not_applicable"
+    }
+  ],
+  "actual_trace_count": 4,
+  "monotonic_weakening_of_reference": false,
+  "shortfall_explanation": []
+}

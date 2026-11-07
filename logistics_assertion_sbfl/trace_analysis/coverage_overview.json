@@ -1,0 +1,323 @@
+[
+  {
+    "case_id": "H08",
+    "num_assertions": 43,
+    "num_distinct_coverage_vectors": 4,
+    "num_distinct_scores": 4,
+    "top_score_group_size": 7,
+    "gold_rank_interval": [
+      "1",
+      "7"
+    ]
+  },
+  {
+    "case_id": "H15",
+    "num_assertions": 43,
+    "num_distinct_coverage_vectors": 4,
+    "num_distinct_scores": 4,
+    "top_score_group_size": 5,
+    "gold_rank_interval": [
+      "1",
+      "5"
+    ]
+  },
+  {
+    "case_id": "H21",
+    "num_assertions": 42,
+    "num_distinct_coverage_vectors": 3,
+    "num_distinct_scores": 3,
+    "top_score_group_size": 20,
+    "gold_rank_interval": null
+  },
+  {
+    "case_id": "H23",
+    "num_assertions": 42,
+    "num_distinct_coverage_vectors": 4,
+    "num_distinct_scores": 4,
+    "top_score_group_size": 13,
+    "gold_rank_interval": null
+  },
+  {
+    "case_id": "H25",
+    "num_assertions": 42,
+    "num_distinct_coverage_vectors": 2,
+    "num_distinct_scores": 2,
+    "top_score_group_size": 22,
+    "gold_rank_interval": null
+  },
+  {
+    "case_id": "H26",
+    "num_assertions": 43,
+    "num_distinct_coverage_vectors": 3,
+    "num_distinct_scores": 3,
+    "top_score_group_size": 21,
+    "gold_rank_interval": [
+      "1",
+      "21"
+    ]
+  },
+  {
+    "case_id": "H28",
+    "num_assertions": 43,
+    "num_distinct_coverage_vectors": 3,
+    "num_distinct_scores": 3,
+    "top_score_group_size": 21,
+    "gold_rank_interval": [
+      "1",
+      "21"
+    ]
+  },
+  {
+    "case_id": "H29",
+    "num_assertions": 43,
+    "num_distinct_coverage_vectors": 4,
+    "num_distinct_scores": 4,
+    "top_score_group_size": 14,
+    "gold_rank_interval": [
+      "1",
+      "14"
+    ]
+  },
+  {
+    "case_id": "H32",
+    "num_assertions": 44,
+    "num_distinct_coverage_vectors": 3,
+    "num_distinct_scores": 3,
+    "top_score_group_size": 17,
+    "gold_rank_interval": [
+      "1",
+      "17"
+    ]
+  },
+  {
+    "case_id": "H33",
+    "num_assertions": 44,
+    "num_distinct_coverage_vectors": 3,
+    "num_distinct_scores": 2,
+    "top_score_group_size": 17,
+    "gold_rank_interval": [
+      "1",
+      "17"
+    ]
+  },
+  {
+    "case_id": "H34",
+    "num_assertions": 44,
+    "num_distinct_coverage_vectors": 2,
+    "num_distinct_scores": 2,
+    "top_score_group_size": 21,
+    "gold_rank_interval": [
+      "1",
+      "21"
+    ]
+  },
+  {
+    "case_id": "H35",
+    "num_assertions": 44,
+    "num_distinct_coverage_vectors": 3,
+    "num_distinct_scores": 3,
+    "top_score_group_size": 22,
+    "gold_rank_interval": [
+      "1",
+      "22"
+    ]
+  },
+  {
+    "case_id": "H36",
+    "num_assertions": 44,
+    "num_distinct_coverage_vectors": 4,
+    "num_distinct_scores": 4,
+    "top_score_group_size": 15,
+    "gold_rank_interval": [
+      "1",
+      "15"
+    ]
+  },
+  {
+    "case_id": "H38",
+    "num_assertions": 43,
+    "num_distinct_coverage_vectors": 4,
+    "num_distinct_scores": 4,
+    "top_score_group_size": 14,
+    "gold_rank_interval": [
+      "1",
+      "14"
+    ]
+  },
+  {
+    "case_id": "H40",
+    "num_assertions": 43,
+    "num_distinct_coverage_vectors": 3,
+    "num_distinct_scores": 3,
+    "top_score_group_size": 21,
+    "gold_rank_interval": [
+      "1",
+      "21"
+    ]
+  },
+  {
+    "case_id": "H41",
+    "num_assertions": 43,
+    "num_distinct_coverage_vectors": 2,
+    "num_distinct_scores": 2,
+    "top_score_group_size": 14,
+    "gold_rank_interval": [
+      "1",
+      "14"
+    ]
+  },
+  {
+    "case_id": "H42",
+    "num_assertions": 43,
+    "num_distinct_coverage_vectors": 3,
+    "num_distinct_scores": 2,
+    "top_score_group_size": 21,
+    "gold_rank_interval": [
+      "1",
+      "21"
+    ]
+  },
+  {
+    "case_id": "H43",
+    "num_assertions": 43,
+    "num_distinct_coverage_vectors": 3,
+    "num_distinct_scores": 3,
+    "top_score_group_size": 7,
+    "gold_rank_interval": [
+      "1",
+      "7"
+    ]
+  },
+  {
+    "case_id": "H44",
+    "num_assertions": 43,
+    "num_distinct_coverage_vectors": 3,
+    "num_distinct_scores": 3,
+    "top_score_group_size": 21,
+    "gold_rank_interval": [
+      "1",
+      "21"
+    ]
+  },
+  {
+    "case_id": "H45",
+    "num_assertions": 43,
+    "num_distinct_coverage_vectors": 2,
+    "num_distinct_scores": 2,
+    "top_score_group_size": 23,
+    "gold_rank_interval": [
+      "1",
+      "23"
+    ]
+  },
+  {
+    "case_id": "H46",
+    "num_assertions": 43,
+    "num_distinct_coverage_vectors": 4,
+    "num_distinct_scores": 4,
+    "top_score_group_size": 14,
+    "gold_rank_interval": [
+      "1",
+      "14"
+    ]
+  },
+  {
+    "case_id": "H47",
+    "num_assertions": 44,
+    "num_distinct_coverage_vectors": 4,
+    "num_distinct_scores": 4,
+    "top_score_group_size": 15,
+    "gold_rank_interval": [
+      "1",
+      "15"
+    ]
+  },
+  {
+    "case_id": "H48",
+    "num_assertions": 44,
+    "num_distinct_coverage_vectors": 2,
+    "num_distinct_scores": 2,
+    "top_score_group_size": 29,
+    "gold_rank_interval": [
+      "1",
+      "29"
+    ]
+  },
+  {
+    "case_id": "H49",
+    "num_assertions": 44,
+    "num_distinct_coverage_vectors": 2,
+    "num_distinct_scores": 2,
+    "top_score_group_size": 21,
+    "gold_rank_interval": [
+      "1",
+      "21"
+    ]
+  },
+  {
+    "case_id": "H50",
+    "num_assertions": 44,
+    "num_distinct_coverage_vectors": 4,
+    "num_distinct_scores": 4,
+    "top_score_group_size": 15,
+    "gold_rank_interval": [
+      "1",
+      "15"
+    ]
+  },
+  {
+    "case_id": "H51",
+    "num_assertions": 44,
+    "num_distinct_coverage_vectors": 1,
+    "num_distinct_scores": 1,
+    "top_score_group_size": 44,
+    "gold_rank_interval": [
+      "1",
+      "44"
+    ]
+  },
+  {
+    "case_id": "H52",
+    "num_assertions": 44,
+    "num_distinct_coverage_vectors": 2,
+    "num_distinct_scores": 2,
+    "top_score_group_size": 21,
+    "gold_rank_interval": [
+      "1",
+      "21"
+    ]
+  },
+  {
+    "case_id": "H53",
+    "num_assertions": 44,
+    "num_distinct_coverage_vectors": 2,
+    "num_distinct_scores": 2,
+    "top_score_group_size": 35,
+    "gold_rank_interval": [
+      "1",
+      "35"
+    ]
+  },
+  {
+    "case_id": "H54",
+    "num_assertions": 44,
+    "num_distinct_coverage_vectors": 2,
+    "num_distinct_scores": 2,
+    "top_score_group_size": 35,
+    "gold_rank_interval": [
+      "1",
+      "35"
+    ]
+  },
+  {
+    "case_id": "H55",
+    "num_assertions": 44,
+    "num_distinct_coverage_vectors": 2,
+    "num_distinct_scores": 2,
+    "top_score_group_size": 21,
+    "gold_rank_interval": [
+      "1",
+      "21"
+    ]
+  }
+]

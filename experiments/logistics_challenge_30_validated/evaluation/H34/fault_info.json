@@ -1,0 +1,26 @@
+{
+  "case_id": "H34",
+  "group_id": "G8",
+  "group_title": "動作破壞共享地圖",
+  "requested_category": 6,
+  "description_zh_tw": "飛行誤刪目的地機場資格，另一架飛機無法降落",
+  "faulty_action": "FLY-AIRPLANE",
+  "component": ":effect",
+  "original_slot_1based": 3,
+  "original_line_1based": 82,
+  "original_assertion": null,
+  "replacement_assertion": "(not (AIRPORT ?loc-to))",
+  "operation": "add",
+  "domain_sha256": "0fc55941ba4966b947de31f66443ccc88cef259cbb2d789b8c92251078f74b4c",
+  "blind_id": "B-0fc55941ba49",
+  "structural_checks": {
+    "single_assertion_edit": true,
+    "unchanged_declarations_parameters_and_other_assertions": true,
+    "undeclared_predicates_or_variables": false,
+    "duplicate_assertions": false,
+    "action_count": 6,
+    "predicate_count": 9
+  },
+  "source_candidate_id": null,
+  "source_legacy_case": null
+}

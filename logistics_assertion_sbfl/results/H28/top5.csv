@@ -1,0 +1,22 @@
+case_id,assertion_id,action,section,component_type,literal,ef,ep,total_failure_traces,ochiai,best_rank,worst_rank,average_rank,tie_group_size,is_ground_truth
+H28,LOAD-TRUCK.precondition[1],LOAD-TRUCK,precondition,precondition_positive,(OBJ ?obj),2,0,2,1.0,1,21,11.0,21,false
+H28,LOAD-TRUCK.precondition[2],LOAD-TRUCK,precondition,precondition_positive,(TRUCK ?truck),2,0,2,1.0,1,21,11.0,21,false
+H28,LOAD-TRUCK.precondition[3],LOAD-TRUCK,precondition,precondition_positive,(LOCATION ?loc),2,0,2,1.0,1,21,11.0,21,false
+H28,LOAD-TRUCK.precondition[4],LOAD-TRUCK,precondition,precondition_positive,(at ?truck ?loc),2,0,2,1.0,1,21,11.0,21,false
+H28,LOAD-TRUCK.precondition[5],LOAD-TRUCK,precondition,precondition_positive,(at ?obj ?loc),2,0,2,1.0,1,21,11.0,21,false
+H28,LOAD-TRUCK.effect[1],LOAD-TRUCK,effect,delete_effect,(not (at ?obj ?loc)),2,0,2,1.0,1,21,11.0,21,false
+H28,LOAD-TRUCK.effect[2],LOAD-TRUCK,effect,add_effect,(in ?obj ?truck),2,0,2,1.0,1,21,11.0,21,false
+H28,UNLOAD-TRUCK.precondition[1],UNLOAD-TRUCK,precondition,precondition_positive,(OBJ ?obj),2,0,2,1.0,1,21,11.0,21,false
+H28,UNLOAD-TRUCK.precondition[2],UNLOAD-TRUCK,precondition,precondition_positive,(TRUCK ?truck),2,0,2,1.0,1,21,11.0,21,false
+H28,UNLOAD-TRUCK.precondition[3],UNLOAD-TRUCK,precondition,precondition_positive,(LOCATION ?loc),2,0,2,1.0,1,21,11.0,21,false
+H28,UNLOAD-TRUCK.precondition[4],UNLOAD-TRUCK,precondition,precondition_positive,(at ?truck ?loc),2,0,2,1.0,1,21,11.0,21,false
+H28,UNLOAD-TRUCK.precondition[5],UNLOAD-TRUCK,precondition,precondition_positive,(in ?truck ?obj),2,0,2,1.0,1,21,11.0,21,true
+H28,DRIVE-TRUCK.precondition[1],DRIVE-TRUCK,precondition,precondition_positive,(TRUCK ?truck),2,0,2,1.0,1,21,11.0,21,false
+H28,DRIVE-TRUCK.precondition[2],DRIVE-TRUCK,precondition,precondition_positive,(LOCATION ?loc-from),2,0,2,1.0,1,21,11.0,21,false
+H28,DRIVE-TRUCK.precondition[3],DRIVE-TRUCK,precondition,precondition_positive,(LOCATION ?loc-to),2,0,2,1.0,1,21,11.0,21,false
+H28,DRIVE-TRUCK.precondition[4],DRIVE-TRUCK,precondition,precondition_positive,(CITY ?city),2,0,2,1.0,1,21,11.0,21,false
+H28,DRIVE-TRUCK.precondition[5],DRIVE-TRUCK,precondition,precondition_positive,(at ?truck ?loc-from),2,0,2,1.0,1,21,11.0,21,false
+H28,DRIVE-TRUCK.precondition[6],DRIVE-TRUCK,precondition,precondition_positive,(in-city ?loc-from ?city),2,0,2,1.0,1,21,11.0,21,false
+H28,DRIVE-TRUCK.precondition[7],DRIVE-TRUCK,precondition,precondition_positive,(in-city ?loc-to ?city),2,0,2,1.0,1,21,11.0,21,false
+H28,DRIVE-TRUCK.effect[1],DRIVE-TRUCK,effect,delete_effect,(not (at ?truck ?loc-from)),2,0,2,1.0,1,21,11.0,21,false
+H28,DRIVE-TRUCK.effect[2],DRIVE-TRUCK,effect,add_effect,(at ?truck ?loc-to),2,0,2,1.0,1,21,11.0,21,false

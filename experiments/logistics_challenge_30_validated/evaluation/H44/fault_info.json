@@ -1,0 +1,17 @@
+{
+  "case_id": "H44",
+  "group_id": "G12",
+  "group_title": "地面位置與承載關係寫錯",
+  "description_zh_tw": "裝貨後把卡車當地點，沒有正確建立承載關係",
+  "faulty_action": "LOAD-TRUCK",
+  "component": ":effect",
+  "original_slot_1based": 2,
+  "original_line_1based": 24,
+  "original_assertion": "(in ?obj ?truck)",
+  "replacement_assertion": "(at ?obj ?truck)",
+  "operation": "replace",
+  "domain_sha256": "ed374b5ade3da84802be2da31f39eccdbd83e8274abc80280e58b2afd14bf467",
+  "blind_id": "B-ed374b5ade3d",
+  "source_legacy_case": null,
+  "novelty_note": "新的 H 系列 Assertion 編輯位置或內容；未主張獨立語意難度"
+}

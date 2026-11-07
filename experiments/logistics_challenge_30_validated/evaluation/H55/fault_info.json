@@ -1,0 +1,17 @@
+{
+  "case_id": "H55",
+  "group_id": "G15",
+  "group_title": "裝卸破壞共用機場資格",
+  "description_zh_tw": "飛機卸貨刪除共用機場資格，之後起降受阻",
+  "faulty_action": "UNLOAD-AIRPLANE",
+  "component": ":effect",
+  "original_slot_1based": 3,
+  "original_line_1based": 57,
+  "original_assertion": null,
+  "replacement_assertion": "(not (AIRPORT ?loc))",
+  "operation": "add",
+  "domain_sha256": "f0c31b5878d12425cf7ceba69f83bc84708c82917f180cf4675e1939c73f6589",
+  "blind_id": "B-f0c31b5878d1",
+  "source_legacy_case": null,
+  "novelty_note": "新的 H 系列 Assertion 編輯位置或內容；未主張獨立語意難度"
+}

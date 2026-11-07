@@ -1,0 +1,21 @@
+{
+  "method": "pure assertion-level SBFL",
+  "formula": "Ochiai",
+  "formula_expression": "ef / sqrt(F * (ef + ep)); zero denominator -> 0",
+  "coverage_policy": "precondition_checked_effect_applied",
+  "binary_per_trace": true,
+  "condition_truth_used_for_scoring": false,
+  "state_difference_used_for_scoring": false,
+  "ground_truth_used_for_scoring": false,
+  "reference_model_or_traces_used_for_scoring": false,
+  "ml_or_llm_used": false,
+  "explicit_label": "success",
+  "label_consistency": "sequence_completed AND full_goal_reached",
+  "preconditions": "Grounded literal in attempted step grounded_preconditions check record",
+  "effects": "All unconditional effects of executed actions, including no-op effects",
+  "ties": "Exact equal score -> shared best/worst/average rank; no arbitrary tie breaking",
+  "missing_assertions": "No gold-derived virtual candidates; unrankable, counted as misses in all-case accuracy",
+  "strict_topk": "worst_rank <= K",
+  "tie_aware_topk": "best_rank <= K",
+  "selected_traces": "Only the four existing mutant traces per case; no reference traces in spectra"
+}
